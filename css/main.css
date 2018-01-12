@@ -111,6 +111,15 @@ textarea {
   width : 5vh !important;
   height : 5vh!important;
 }
+  #footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
 
 
 
