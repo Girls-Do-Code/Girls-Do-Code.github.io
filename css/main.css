@@ -350,7 +350,7 @@ h1.main, p.demos {
 .sp-content {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 700px;
 	left: 0px;
 	top: 0px;
 	z-index: 1000;
