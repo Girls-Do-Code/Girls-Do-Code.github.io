@@ -27,6 +27,100 @@
           padding-top: 56px;
         }
       }
+      header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+.front{
+         padding-top: 25px;
+         background-color: #212529;
+      }
+      #participants{
+        padding-top: 110px;
+      }
+      #mentors{
+        padding-top: 40px;
+      }
+      html{
+  overflow-x: hidden;
+}
+
+.card {
+    width: 200px;
+    height: 235px;
+    background: #f8f9fa;
+    position: relative;
+    margin: 10px;
+    padding:5px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    
+  }
+
+  .card .front {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    
+    backface-visibility: hidden;
+    transform: perspective(600px) rotateY(0deg);
+    transition: transform 0.55s linear;
+    border-radius:3px;
+  }
+
+  .card-underline{
+    background-color:#ff6a00;
+    margin:5px auto 10px auto;
+  }
+
+  .card .back {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    background: #333;
+    backface-visibility: hidden;
+    transform: perspective(600px) rotateY(180deg);
+    transition: transform 0.55s linear;
+    padding: 10px;
+    border-radius:4px;
+  }
+
+  .flipped .front{
+   transform: perspective(600px) rotateY(-180deg);
+  }
+    
+   .flipped .back{
+   transform: perspective(600px) rotateY(0deg);
+  }
+  header{
+    height:auto;
+    width:100%;
+    background-color:#222;
+    padding:100px 0px 20px 0;
+    position: relative;
+  }
+
+header .card-underline{
+  width:35%;
+  margin:0 auto;
+  background-color:white;
+  padding:0;
+
+}
+ .heading h1{
+    color: #ffff;
+ }
 
     </style>
 
@@ -87,6 +181,479 @@
           </ul>
         </div>
       </div>
+    </div>
+
+     <!-- Grid -->
+<div class="container">
+  <div id="mentors">
+  <div class="row">
+          <div class="heading">
+            <h1>Mentors</h1>
+          </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2.5">
+      <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-2.5">
+      <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              <p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-2.5">
+      <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-2.5">
+      <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+          </div>
+      </div>
+    </div>
+        <div class="col-lg-2.5">
+         <div class="thumbnail">
+          <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+              </div>
+              <div class="back">
+              </div>
+          </div>
+        </div>
+        </div>
+    <div class="col-lg-2.5">
+      <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-2.5">
+     <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              <p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-2.5">
+     <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-2.5">
+     <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+          </div>
+      </div>
+    </div>
+      <div class="col-lg-2.5">
+        <div class="thumbnail">
+          <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+              </div>
+              <div class="back">
+              </div>
+          </div>
+        </div>
+  </div>
+    <div class="col-lg-2.5">
+     <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-2.5">
+     <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              <p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-2.5">
+    <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-2.5">
+     <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+          </div>
+      </div>
+    </div>
+        <div class="col-sm-2.5">
+         <div class="thumbnail">
+          <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+              </div>
+              <div class="back">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div id="participants">     
+       <div class="row">
+          <div class="heading">
+            <h1>Participants</h1>
+          </div>
+       </div>
+  <div class="row">
+    <div class="col-lg-2.5">
+       <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-2.5">
+       <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              <p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-2.5">
+      <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-2.5">
+       <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+          </div>
+      </div>
+    </div>
+        <div class="col-sm-2.5">
+           <div class="thumbnail">
+          <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+              </div>
+              <div class="back">
+              </div>
+            </div>
+          </div>
+        </div>
+    <div class="col-sm-2.5">
+       <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+       </div>
+     </div>
+  </div>
+    <div class="col-sm-2.5">
+       <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              <p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-2.5">
+       <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-2.5">
+        <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+          </div>
+      </div>
+    </div>
+        <div class="col-sm-2.5">
+          <div class="thumbnail">
+          <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+              </div>
+              <div class="back">
+              </div>
+            </div>
+        </div>
+  </div>
+    <div class="col-sm-2.5">
+       <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-2.5">
+       <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              <p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-2.5">
+        <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-2.5">
+      <div class="thumbnail">
+      <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+            </div>
+            <div class="back">
+            </div>
+          </div>
+      </div>
+    </div>
+        <div class="col-sm-2.5">
+           <div class="thumbnail">
+          <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="front">
+              <p>
+                 Lorem ipsum dolor sit amet, consectetuer adipiscing 
+                 <strong>strong</strong>. Cum sociis natoque penatibus 
+                 mus. Donec quam felis, ultricies nec, pellentesque 
+              </p>
+              </div>
+              <div class="back">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
     </div>
                                    
      <footer id="footer" role="contentinfo">
