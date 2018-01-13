@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    box-sizing: border-box;
 }
 
 /*
@@ -320,17 +321,24 @@ h1.main, p.demos {
 	
 	
 	width: 100%;
-	height: 650px;
+	height: 100vh;
 	z-index: 0;
 	background: -webkit-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 	background: -moz-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 	background: -ms-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 }
+
+section
+{
+height:auto;
+}
 .sp-content {
-	background-image: url(sty.jpg);
+	background-image: url(st.jpg);
+	 background-size: cover;
 	width: 100%;
-	height: 650px;
+	height: 100vh;
+	
 	
 	z-index: 1000;
 }
@@ -624,7 +632,7 @@ h1.main, p.demos {
             height: 400px;
             margin: 0;
             font-family: "Roboto";
-            padding: 80px;
+            padding: 80px 0;
             text-align: center;
             font-size:25px;
             font-weight: 100;
