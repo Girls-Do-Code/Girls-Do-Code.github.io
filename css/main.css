@@ -111,15 +111,7 @@ textarea {
   width : 5vh !important;
   height : 5vh!important;
 }
-  #footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-}
+
 
 
 
@@ -313,19 +305,7 @@ textarea {
 }
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 
-body {
-	background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	font-family: 'Barlow', sans-serif;
-}
-.container {
-	width: 100%;
-	position: relative;
-	overflow: hidden;
-}
+
 a {
 	text-decoration: none;
 }
@@ -336,11 +316,11 @@ h1.main, p.demos {
 	animation-delay: 18s;
 }
 .sp-container {
-	position: fixed;
-	top: 0px;
-	left: 0px;
+    
+	
+	
 	width: 100%;
-	height: 100%;
+	height: 650px;
 	z-index: 0;
 	background: -webkit-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 	background: -moz-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
@@ -348,19 +328,18 @@ h1.main, p.demos {
 	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 }
 .sp-content {
-	position: absolute;
+	background-image: url(st.jpg);
 	width: 100%;
-	height: 700px;
-	left: 0px;
-	top: 0px;
+	height: 650px;
+	
 	z-index: 1000;
 }
 .sp-container h2 {
-	position: absolute;
+	font-family: "Lobster";
 	top: 50%;
 	line-height: 100px;
 	height: 90px;
-	margin-top: -50px;
+	margin-top: 0px;
 	font-size: 90px;
 	width: 100%;
 	text-align: center;
@@ -423,39 +402,20 @@ h1.main, p.demos {
 	-ms-animation-delay: 14s;
 	animation-delay: 14s;
 }
-.sp-globe {
-	position: absolute;
-	width: 282px;
-	height: 273px;
-	left: 50%;
-	top: 50%;
-	margin: -137px 0 0 -141px;
-	background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png) no-repeat top left;
-	-webkit-animation: fadeInBack 3.6s linear 14s backwards;
-	-moz-animation: fadeInBack 3.6s linear 14s backwards;
-	-ms-animation: fadeInBack 3.6s linear 14s backwards;
-	animation: fadeInBack 3.6s linear 14s backwards;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-	filter: alpha(opacity=30);
-	opacity: 0.3;
-	-webkit-transform: scale(5);
-	-moz-transform: scale(5);
-	-o-transform: scale(5);
-	-ms-transform: scale(5);
-	transform: scale(5);
-}
+
 .sp-circle-link {
 	position: absolute;
 	left: 50%;
-	bottom: 100px;
+	bottom: -30px;
 	margin-left: -50px;
 	text-align: center;
 	line-height: 100px;
 	width: 100px;
 	height: 100px;
-	background: #fff;
-	color: #3f1616;
+	background-color: darkslategray;
+	color: white;
 	font-size: 25px;
+    font-family: "Lobster";
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
@@ -470,7 +430,7 @@ h1.main, p.demos {
 	transform: scale(1) rotate(0deg);
 }
 .sp-circle-link:hover {
-	background: #85373b;
+	background-color: slategray;
 	color: #fff;
 }
 /**/
@@ -650,156 +610,5 @@ h1.main, p.demos {
 }
 
 
-/*css animation for section sect*/
- .sect{
-            position: absolute;
-            width: 100%;
-            height: 500px;
-            background-color: #34495e;
-            background-image: url(st.jpg);
-        }
-        .style{
-            padding-top: 200px;
-        }
-        
-  
 
-.content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  height: 160px;
-  overflow: hidden;
-  font-family: 'Lato', sans-serif;
-  font-size: 35px;
-  line-height: 40px;
-  color: #ecf0f1;
-}
-.content__container {
-  font-weight: 600;
-  overflow: hidden;
-  height: 40px;
-  padding: 0 40px;
-}
-.content__container:before {
-  content: '[';
-  left: 0;
-}
-.content__container:after {
-  content: ']';
-  position: absolute;
-  right: 0;
-}
-.content__container:after, .content__container:before {
-  position: absolute;
-  top: 0;
-  color: #16a085;
-  font-size: 42px;
-  line-height: 40px;
-  -webkit-animation-name: opacity;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-  animation-name: opacity;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-.content__container__text {
-  display: inline;
-  float: left;
-  margin: 0;
-}
-.content__container__list {
-  margin-top: 0;
-  padding-left: 110px;
-  text-align: left;
-  list-style: none;
-  -webkit-animation-name: change;
-  -webkit-animation-duration: 10s;
-  -webkit-animation-iteration-count: infinite;
-  animation-name: change;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-.content__container__list__item {
-  line-height: 40px;
-  margin: 0;
-}
-
-@-webkit-keyframes opacity {
-  0%, 100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes change {
-  0%, 12.66%, 100% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-  }
-  16.66%, 29.32% {
-    -webkit-transform: translate3d(0, -25%, 0);
-            transform: translate3d(0, -25%, 0);
-  }
-  33.32%,45.98% {
-    -webkit-transform: translate3d(0, -50%, 0);
-            transform: translate3d(0, -50%, 0);
-  }
-  49.98%,62.64% {
-    -webkit-transform: translate3d(0, -75%, 0);
-            transform: translate3d(0, -75%, 0);
-  }
-  66.64%,79.3% {
-    -webkit-transform: translate3d(0, -50%, 0);
-            transform: translate3d(0, -50%, 0);
-  }
-  83.3%,95.96% {
-    -webkit-transform: translate3d(0, -25%, 0);
-            transform: translate3d(0, -25%, 0);
-  }
-}
-@keyframes opacity {
-  0%, 100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-@keyframes change {
-  0%, 12.66%, 100% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-  }
-  16.66%, 29.32% {
-    -webkit-transform: translate3d(0, -25%, 0);
-            transform: translate3d(0, -25%, 0);
-  }
-  33.32%,45.98% {
-    -webkit-transform: translate3d(0, -50%, 0);
-            transform: translate3d(0, -50%, 0);
-  }
-  49.98%,62.64% {
-    -webkit-transform: translate3d(0, -75%, 0);
-            transform: translate3d(0, -75%, 0);
-  }
-  66.64%,79.3% {
-    -webkit-transform: translate3d(0, -50%, 0);
-            transform: translate3d(0, -50%, 0);
-  }
-  83.3%,95.96% {
-    -webkit-transform: translate3d(0, -25%, 0);
-            transform: translate3d(0, -25%, 0);
-  }
-}
-.style
-        {
-            font-family:'Lobster',sans-serif;
-            text-align: center;
-            font-size: 40px;
-            padding-top: 240px;
-            color: white;
-        }
+ 
