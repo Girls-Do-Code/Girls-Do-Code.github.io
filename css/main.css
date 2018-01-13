@@ -629,7 +629,7 @@ height:auto;
         }
         
         .jumbotron{
-            height: 400px;
+            height: auto;
             margin: 0;
             font-family: "Roboto";
             padding: 80px 0;
