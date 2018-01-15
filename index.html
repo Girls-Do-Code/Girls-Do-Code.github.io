@@ -7,13 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <title>Girls Who Code</title>
     <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
 
     <!-- Bootstrap core CSS -->
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    
+	  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/css/main.css" rel="stylesheet">
+
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -49,10 +59,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -63,9 +73,12 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="sp-container">
+    
+				   
+   <section id="start" >
+      <div class="sp-container">
       <div class="sp-content">
-        <div class="sp-globe"></div>
+        
         <h2 class="frame-1">Code</h2>
         <h2 class="frame-2">Develop</h2>
         <h2 class="frame-3">Explore</h2>
@@ -78,16 +91,23 @@
         <a class="sp-circle-link" href="https://geekhaven.iiita.ac.in/foss/">By Foss</a>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1 class="mt-5 Girls Who Code</h1>
-          
-          <ul class="list-unstyled">
-          </ul>
-        </div>
-      </div>
-    </div>
+    </section>
+    
+	  
+	 <section id="about">
+      <div class="jumbotron"><p>Open source is the foundation on which the Internet is built. For its continued success, it's critical to incorporate diverse voices and engage people with different experiences, talents, and viewpoints. Otherwise we risk a world of technology created by, and supporting, a non-inclusive and hostile monoculture.
+
+.</p></div></section>
+     
+      
+        
+<div class="sec" >
+          <p> Only 1 in 10 Open Source Contributors are women</p></div>
+        
+    <section id="projects">
+	<div class="jumbotron " ><p>Together we can make things better. OS4W aims to be a resource for connecting all women, including women of color and transgender women, to open source projects that are welcoming, inclusive, and appreciative of diversity in their contributors</p></div>
+        </section>
+
                                    
      <footer id="footer" role="contentinfo">
 			<div class="container">
@@ -129,7 +149,24 @@
     <!-- Bootstrap core JavaScript -->
     <script src="static/js/jquery.min.js"></script>
     <script src="static/js/bootstrap.bundle.min.js"></script>
+    <!-- Adding smooth scroll -->
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $('body').scrollspy({target: ".navbar", offset: 50});   
+    $("#navbarResponsive a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 700, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
 
-  </body>
+</body>
 
 </html>
