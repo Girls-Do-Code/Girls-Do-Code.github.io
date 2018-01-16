@@ -338,8 +338,7 @@ height:auto;
 	 background-size: cover;
 	width: 100%;
 	height: 100vh;
-	
-	
+	overflow-x: hidden;
 	z-index: 1000;
 }
 .sp-container h2 {
@@ -411,18 +410,48 @@ height:auto;
 	animation-delay: 14s;
 }
 
+
+
+.sp-globe {
+	position: absolute;
+	width: 282px;
+	height: 273px;
+	left: 50%;
+	top: 50%;
+	margin: -137px 0 0 -141px;
+	background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png) no-repeat top left;
+	-webkit-animation: fadeInBack 3.6s linear 14s backwards;
+	-moz-animation: fadeInBack 3.6s linear 14s backwards;
+	-ms-animation: fadeInBack 3.6s linear 14s backwards;
+	animation: fadeInBack 3.6s linear 14s backwards;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+	-webkit-transform: scale(5);
+	-moz-transform: scale(5);
+	-o-transform: scale(5);
+	-ms-transform: scale(5);
+	transform: scale(5);
+}
+
+
+
+
+
+
+
 .sp-circle-link {
 	position: absolute;
 	left: 50%;
-	bottom: -30px;
+	bottom: -90px;
 	margin-left: -50px;
 	text-align: center;
 	line-height: 100px;
-	width: 100px;
-	height: 100px;
+	width: 95px;
+	height: 95px;
 	background-color: darkslategray;
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
     font-family: "Lobster";
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -436,7 +465,10 @@ height:auto;
 	-o-transform: scale(1) rotate(0deg);
 	-ms-transform: scale(1) rotate(0deg);
 	transform: scale(1) rotate(0deg);
+	clip: (0px,20px,10px,0px);
+     
 }
+
 .sp-circle-link:hover {
 	background-color: slategray;
 	color: #fff;
@@ -502,6 +534,8 @@ height:auto;
 	}
 }
 /**/
+
+
 
 @-moz-keyframes blurFadeInOut {
 	0% {
@@ -636,7 +670,7 @@ height:auto;
             text-align: center;
             font-size:25px;
             font-weight: 100;
-            
+            z-index:1000;
             	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
             background-size: 400% 400%;
             -webkit-animation: Gradient 15s ease infinite;
@@ -682,4 +716,93 @@ height:auto;
 }
 
 
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+
+
+/*.go h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 3em;
+  color: #9A12B3;
+  text-align: center;
+}*/
+
+
+
+.go{
+	background: -webkit-linear-gradient(goldenrod, tomato 110%);
+	/*background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg) no-repeat center center fixed; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	height: 730px;
+	position: relative;
+	
+    
+}
+
+.go h1{
+    position: absolute;
+	margin-top: 80px;
+	text-align: center;
+	color:black;
+}
+
+.go h3{
+	opacity: 1;
+	font-weight: bold;
+}
+
+
+
+.go p { 
+	 
+	 position: absolute;
+	margin-top: 150px;
+	font-size: 25px;
+	color:purple;
+}
+.go i{
+    font-size: 100px;
+    
+}
+
+.go span{
+	color:purple;
+}
+.git
+{
+	position: absolute;
+    top:250px;
+    left:150px;
+    font-size: 20px;
+
+}
+.aware{
+	position: absolute;
+    top:250px;
+    left:700px;
+    font-size: 20px;
+}
+ 
+ .empower
+{
+	position: absolute;
+    top:500px;
+    left:150px;
+    font-size: 20px;
+}
+#footer{
+	padding: 30px;
+}
  
