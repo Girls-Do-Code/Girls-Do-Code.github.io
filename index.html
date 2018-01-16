@@ -37,6 +37,75 @@
           padding-top: 56px;
         }
       }
+      *, :before, :after {
+    box-sizing: border-box;
+    }
+      .organization {
+        width: 600px;
+        padding: 70px 0 0 230px;
+        min-height: 200px;
+        margin: auto;
+        position: relative;
+      }
+      .organization-badge {
+        width: 200px;
+        height: 280px;
+        border-radius: 0 0 100px 100px;
+        overflow: hidden;
+        transform: rotate(0deg); /* To force its own layer */
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .organization-badge:before,
+      .organization-badge:after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        border-radius: 50%;
+        z-index:-1;
+        width: 200px;
+        height: 200px;
+        background: #DDD;
+        background: linear-gradient(to bottom, #EEE 0%,#CCC 100%);
+        transition:500ms;
+      }
+      .organization-badge:after {
+        background: linear-gradient(to top, #F88 0%,#EEE 100%);
+        opacity: 0;
+      }
+      .organization:nth-child(2) .organization-badge:after {
+        background: linear-gradient(to top, #5AB 0%,#EEE 100%);  
+      }
+      .organization:nth-child(3) .organization-badge:after {
+        background: linear-gradient(to top, #FC0 0%,#EEE 100%);
+      }
+      .organization-badge:hover:after {
+        opacity: 1;
+      }
+
+      .organization-badge img {
+        width: 200px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 500ms;
+      }
+      .organization-badge img.peculiar {
+        opacity: 0;
+        transform: translateY(80px)
+      }
+
+      .organization-badge:hover img.normal {opacity: 0;transform: translateY(80px)}
+      .organization-badge:hover img.peculiar {opacity: 1;transform: translateY(0)}
+
+      .organization h3 {
+        margin: 0;
+        font-weight: 200;
+        font-size: 28px;
+      }
+
+strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
 
     </style>
 
@@ -67,6 +136,10 @@
 
             <li class="nav-item">
               <a class="nav-link" href="#goals">Goals</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#women_organizations">Women-Organizations</a>
             </li>
             
             <li class="nav-item">
@@ -99,19 +172,23 @@
     </section>
     
 	  
-	 <section id="about">
-      <div class="jumbotron"><p>Open source is the foundation on which the Internet is built. For its continued success, it's critical to incorporate diverse voices and engage people with different experiences, talents, and viewpoints. Otherwise we risk a world of technology created by, and supporting, a non-inclusive and hostile monoculture.
-
-.</p></div></section>
+	<section id="about">
+      <div class="jumbotron">
+      <p>Open source is the foundation on which the Internet is built. For its continued success, it's critical to incorporate diverse voices and engage people with different experiences, talents, and viewpoints. Otherwise we risk a world of technology created by, and supporting, a non-inclusive and hostile monoculture.</p>
+      </div>
+  </section>
      
       
         
-<div class="sec" >
-          <p> Only 1 in 10 Open Source Contributors are women</p></div>
+  <div class="sec" >
+      <p> Only 1 in 10 Open Source Contributors are women</p>
+  </div>
         
-    <section id="projects">
-	<div class="jumbotron " ><p>Together we can make things better. OS4W aims to be a resource for connecting all women, including women of color and transgender women, to open source projects that are welcoming, inclusive, and appreciative of diversity in their contributors</p></div>
-        </section>
+  <section id="projects">
+	<div class="jumbotron " >
+  <p>Together we can make things better. OS4W aims to be a resource for connecting all women, including women of color and transgender women, to open source projects that are welcoming, inclusive, and appreciative of diversity in their contributors</p>
+  </div>
+  </section>
 
   <div id="goals" class="go1">
   <div class="go">
@@ -121,12 +198,55 @@
   <p>This project is started with an aim to get more woman contributors to Open Source.</p>
   <div class="git"><i class="fa fa-github"></i><br><h3>GitHub</h3><span>Get women started with Git and Github</span></div>
   <div class="aware"><i class="fa fa-eye"></i><br><h3>Awareness</h3><span>Making Women aware about open source development.</span></div>
-  <div class="empower"><i class="fa fa-female"></i><br><h3>Woman Empowerment</h3><span>Empowering women by improving participation.</span></div>
+  <div class="empower"><i class="fa fa-female"></i><br><h3>Woman Empowerment</h3><span>Empowering women by improving participation.
+  </span>
+  </div>
+
+
   <div class="git"><i class="fa fa-github"></i></div>
   </div>
-        </div>
+  </div>
 
-        
+ <section id="women_organizations">
+  <div class="jumbotron" >
+  <h1>Information About Women-Organizations.  </h1>
+
+  <div class="organization">
+  <div class="organization-badge">
+    <img class="normal" src="https://www.filepicker.io/api/file/RHJzJuTZQkSwIyQZO226/convert?fit=clip&h=586&w=1120">
+    <img class="peculiar" src="css/women.png">
+  </div>
+  <h3> <a href="https://www.womenwhocode.com/">Women Who Code</a></h3>
+  <div>
+    Women Who Code (WWCode) is a global 501(c)(3) non-profit dedicated to inspiring women to excel in technology careers. They strongly believe in the value of diversity, and envision a world where women are representative as technical executives, founders, venture capitalists, board members, and software engineers.  
+  </div>
+  </div>
+
+
+  <div class="organization">
+    <div class="organization-badge">
+      <img class="normal" src="https://kamcoding.files.wordpress.com/2014/06/railsgirls.png?w=300&h=163">
+      <img class="peculiar" src="https://learntocodewith.me/wp-content/themes/remixx/images/logo.svg">
+    </div>
+    <h3><a href="https://railsgirlssummerofcode.org/">Rails Girls Summer of Code</a></h3>
+    <div>
+      Rails Girls Summer of Code is a global fellowship program for women and non-binary coders. Students receive a three-month scholarship to work on existing Open Source projects and expand their skill set.
+    </div>
+  </div>
+
+
+  <div class="organization">
+    <div class="organization-badge">
+      <img class="normal" src="http://www.pyladies.com/assets/images/pyladies-bh.png">
+      <img class="peculiar" src="https://secure.meetupstatic.com/photos/event/b/a/5/7/600_433127703.jpeg">
+    </div>
+    <h3><a href="http://www.pyladies.com/">Pyladies</a></h3>
+    <div>
+       PyLadies is an international mentorship group which focuses on helping more women become active participants in the Python open-source community.
+    </div>
+  </div>
+  </div>
+ </section>        
 
                                    
      <footer id="footer" role="contentinfo">
