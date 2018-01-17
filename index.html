@@ -104,8 +104,93 @@
         font-weight: 200;
         font-size: 28px;
       }
+      .our-team{
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        .our-team .pic{
+            display: inline-block;
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            background: #FABC3C;
+            padding: 70px 20px 30px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .our-team .social{
+            padding: 0;
+            margin: 22% 0 0 0;
+            list-style: none;
+        }
+        .our-team .social li{
+            display: inline-block;
+            margin-right: 5px;
+        }
+        .our-team .social li a{
+            display: block;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            line-height:35px;
+            background: #7740ff;
+            font-size: 15px;
+            color: #fff;
+        }
+        .our-team .social li a:hover{
+            background: #fff;
+            color: #7740ff;
+            text-decoration: none;
+        }
+        .our-team .pic img{
+            width: 101%;
+            height: 101%;
+            border-radius: 50%;
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            transition: all 0.6s ease 0s;
+        }
+        .our-team:hover .pic img{
+            transform: rotate(-120deg);
+            transform-origin: 95% 40% 0;
+        }
+        .our-team .title{
+            display: block;
+            font-size: 20px;
+            font-weight: 700;
+            color: #7740ff;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .our-team .title:after{
+            content: "";
+            width: 30px;
+            height: 3px;
+            background: #FABC3C;
+            margin: 0 auto;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            right: 0;
+        }
+        .our-team .post {
+            display: block;
+            font-size: 15px;
+            color: #333;
+            text-transform: capitalise;
+        }
 
-strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
+        @media only screen and (max-width: 990px){
+            .our-team{ margin-bottom: 30px; }
+        }
+        @media only screen and (max-width: 767px){
+            .our-team{ overflow: hidden; }
+        }
+
+
+      strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
 
     </style>
 
@@ -143,7 +228,7 @@ strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -246,7 +331,57 @@ strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
     </div>
   </div>
   </div>
- </section>        
+ </section> 
+ <section id="contact">
+ <div class="jumbotron">
+ <h1>Contact Us</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <ul class="social">
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                    </ul>
+                    <img src="https://media.istockphoto.com/photos/see-you-tomorrow-picture-id518855780?k=6&m=518855780&s=612x612&w=0&h=cYxwwaSud3JpqUur5WKsu3L37UYSpMwlhG04twoTNyk=">
+                </div>
+                <h3 class="title">Contact Person 1</h3>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <ul class="social">
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                    </ul>
+                    <img src="https://media.istockphoto.com/photos/see-you-tomorrow-picture-id518855780?k=6&m=518855780&s=612x612&w=0&h=cYxwwaSud3JpqUur5WKsu3L37UYSpMwlhG04twoTNyk=">
+                </div>
+                <h3 class="title">Contact Person 2</h3>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <ul class="social">
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                    </ul>
+                    <img src="https://media.istockphoto.com/photos/see-you-tomorrow-picture-id518855780?k=6&m=518855780&s=612x612&w=0&h=cYxwwaSud3JpqUur5WKsu3L37UYSpMwlhG04twoTNyk=">
+                </div>
+                <h3 class="title">Contact Person 3</h3>
+            </div>
+        </div>
+
+    </div>
+</div>
+<p>Feel Free to Contact us for any help</p>
+  </div>
+ </section>       
 
                                    
      <footer id="footer" role="contentinfo">
