@@ -321,7 +321,7 @@ h1.main, p.demos {
 	
 	
 	width: 100%;
-	height: 100vh;
+	height: 90vh;
 	z-index: 0;
 	background: -webkit-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 	background: -moz-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
@@ -334,14 +334,21 @@ section
 height:auto;
 }
 .sp-content {
-	background-image: url(../img/st.jpg);
+	background-image: url(../img/im2.jpg);
+	/*background: #310404 no-repeat  ;*/
 	 background-size: cover;
 	width: 100%;
-	height: 100vh;
+	height: 90vh;
 	overflow-x: hidden;
 	z-index: 1000;
+	position: relative;
+	overflow-y: hidden;
+	opacity: 0.6;
+
 }
 .sp-container h2 {
+
+	position: absolute;
 	font-family: "Lobster";
 	top: 50%;
 	line-height: 100px;
@@ -355,34 +362,38 @@ height:auto;
 	-moz-animation: blurFadeInOut 3s ease-in backwards;
 	-ms-animation: blurFadeInOut 3s ease-in backwards;
 	animation: blurFadeInOut 3s ease-in backwards;
+
 }
 .sp-container h2.frame-1 {
+
 	-webkit-animation-delay: 0s;
 	-moz-animation-delay: 0s;
 	-ms-animation-delay: 0s;
 	animation-delay: 0s;
 }
 .sp-container h2.frame-2 {
+
 	-webkit-animation-delay: 3s;
 	-moz-animation-delay: 3s;
 	-ms-animation-delay: 3s;
 	animation-delay: 3s;
 }
 .sp-container h2.frame-3 {
+   
 	-webkit-animation-delay: 6s;
 	-moz-animation-delay: 6s;
 	-ms-animation-delay: 6s;
 	animation-delay: 6s;
 }
 .sp-container h2.frame-4 {
-	font-size: 200px;
+
 	-webkit-animation-delay: 9s;
 	-moz-animation-delay: 9s;
 	-ms-animation-delay: 9s;
 	animation-delay: 9s;
 }
 .sp-container h2.frame-5 {
-	-webkit-animation: none;
+		-webkit-animation: none;
 	-moz-animation: none;
 	-ms-animation: none;
 	animation: none;
@@ -390,6 +401,7 @@ height:auto;
 	text-shadow: 0px 0px 1px #fff;
 }
 .sp-container h2.frame-5 span {
+	
 	-webkit-animation: blurFadeIn 3s ease-in 12s backwards;
 	-moz-animation: blurFadeIn 1s ease-in 12s backwards;
 	-ms-animation: blurFadeIn 3s ease-in 12s backwards;
@@ -398,12 +410,14 @@ height:auto;
 	text-shadow: 0px 0px 1px #fff;
 }
 .sp-container h2.frame-5 span:nth-child(2) {
+	
 	-webkit-animation-delay: 13s;
 	-moz-animation-delay: 13s;
 	-ms-animation-delay: 13s;
 	animation-delay: 13s;
 }
 .sp-container h2.frame-5 span:nth-child(3) {
+	
 	-webkit-animation-delay: 14s;
 	-moz-animation-delay: 14s;
 	-ms-animation-delay: 14s;
@@ -443,13 +457,13 @@ height:auto;
 .sp-circle-link {
 	position: absolute;
 	left: 50%;
-	bottom: -90px;
+	bottom: -30px;
 	margin-left: -50px;
 	text-align: center;
 	line-height: 100px;
 	width: 95px;
 	height: 95px;
-	background-color: darkslategray;
+	background-color: #310404 ;
 	color: white;
 	font-size: 20px;
     font-family: "Lobster";
