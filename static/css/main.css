@@ -819,4 +819,19 @@ height:auto;
 #footer{
 	padding: 30px;
 }
- 
+ .subsection
+{
+background-color: #5CA3CC;
+ width:100%;
+position:relative;
+height:730px;
+}
+.cont
+{
+margin-left:650px; 
+font-family:Times New Roman, Times, serif; 
+font-size:50px;
+}
+.icon{
+
+margin-top:400px;}
