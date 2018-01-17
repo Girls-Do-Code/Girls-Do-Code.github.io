@@ -805,4 +805,35 @@ height:auto;
 #footer{
 	padding: 30px;
 }
+ .subsection
+{
  
+background-color:pink;
+margin-top:-40px;  
+position:relative;
+width:100%;
+ height:1000px;
+  
+}
+
+.item1 { grid-area: 1 / 1 / 2 / 2; }
+.item2 { grid-area: 1 / 2 / 2 / 3; }
+.item3 { grid-area: 1 / 3 / 2 / 4; }
+.item4 { grid-area: 2 / 1 / 3 / 2; }
+.item5 { grid-area: 2 / 2 / 3 / 3; }
+.item6 { grid-area: 2 / 3 / 3 / 4; }
+
+.grid-container {
+  position:absolute;
+  margin-top:50px;
+  display: grid;
+  width:1850px;
+  height:900px;
+  grid-gap: 20px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container>div {
+background-color: rgba(255, 255, 255, 0.8);
+padding:25px;
+}
