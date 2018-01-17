@@ -334,16 +334,17 @@ section
 height:auto;
 }
 .sp-content {
-	background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg) no-repeat  ;
+	background-image: url(../img/im2.jpg);
+	/*background: #310404 no-repeat  ;*/
 	 background-size: cover;
 	width: 100%;
-
 	height: 90vh;
-
 	overflow-x: hidden;
 	z-index: 1000;
 	position: relative;
 	overflow-y: hidden;
+	opacity: 0.6;
+
 }
 .sp-container h2 {
 
@@ -361,6 +362,7 @@ height:auto;
 	-moz-animation: blurFadeInOut 3s ease-in backwards;
 	-ms-animation: blurFadeInOut 3s ease-in backwards;
 	animation: blurFadeInOut 3s ease-in backwards;
+
 }
 .sp-container h2.frame-1 {
 
@@ -455,13 +457,13 @@ height:auto;
 .sp-circle-link {
 	position: absolute;
 	left: 50%;
-	bottom: -90px;
+	bottom: -30px;
 	margin-left: -50px;
 	text-align: center;
 	line-height: 100px;
 	width: 95px;
 	height: 95px;
-	background-color: darkslategray;
+	background-color: #310404 ;
 	color: white;
 	font-size: 20px;
     font-family: "Lobster";
