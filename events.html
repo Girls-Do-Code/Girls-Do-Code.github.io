@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <title>Events : Girls Who Code</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+
+    <!-- Bootstrap core CSS -->
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/event-main.css" rel="stylesheet">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+  <body>
+     <section id="events">
+        <div class="centerflipcards">
+          <div class="square-flip " v-for="event in alphaSort(events)">
+            <div class='square '>
+              <div class="square-container">
+                <div class="align-center"></div>
+                <h4 class="textshadow">{{ event.date }}</h4><hr>
+                <h2 class="textshadow">{{ event.title }}</h2><br>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+<h3 class="textshadow">{{ event.location }}</h3>
+              </div>
+              <div class="flip-overlay"></div>
+            </div>
+            <div class='square2'>
+              <div class="square-container2">
+                <div class="align-center"></div>
+                <a v-bind:href="event.link" target="_blank" class="boxshadow kallyas-button">Know More</a>
+              </div>
+              <div class="flip-overlay"></div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+   <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <!-- Adding smooth scroll -->
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $('body').scrollspy({target: ".navbar", offset: 50});   
+    $("#navbarResponsive a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 700, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+<script src="https://unpkg.com/vue"></script>
+<script src="./static/js/events.js"></script>
+<script src="./static/js/eventCards.js"></script>
+
+</body>
+<script src="https://unpkg.com/vue"></script>
+<script src="./static/js/events.js"></script>
+
+</html>
+
+
+
+

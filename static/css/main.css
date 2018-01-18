@@ -9,7 +9,11 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+ 
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 html {
     color: #222;
     font-size: 1em;
@@ -113,6 +117,7 @@ textarea {
   height : 5vh!important;
 }
 
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -126,7 +131,8 @@ textarea {
 }
 
 /*
- * Hide only visually, but have it available for screen readers:
+ * Hide only visually, but have it availab
+ le for screen readers:
  * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  *
  * 1. For long content, line feeds are not interpreted as spaces and small width
@@ -732,15 +738,14 @@ height:auto;
 	color: white;
 	height: 730px;
 	position: relative;
-	
-    
 }
 
 .go h1{
     position: absolute;
-	margin-top: 80px;
+	margin: 80px auto;
 	text-align: center;
 	color:black;
+	padding: 40px;
 }
 
 .go h3{
@@ -748,13 +753,11 @@ height:auto;
 	font-weight: bold;
 }
 
-
-
 .go p { 
-	 
 	 position: absolute;
-	margin-top: 150px;
+	margin-top: 170px;
 	font-size: 25px;
+	padding-left:40px;
 	color:purple;
 }
 .go i{
@@ -1092,4 +1095,126 @@ body {
     }
 
 strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
- 
+
+#events {
+  background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font: 20px/29px "Roboto", Arial, sans-serif;
+  color: white;
+	position: relative;
+            text-align: center;
+            padding-top: 20px;
+            width: 100%;
+	min-height: 100%;
+	max-width: $maxWidth;
+	overflow: hidden;
+}
+
+#events h1{
+	font: 40px "Lato", Arial, sans-serif;
+  	color: white;
+	position: relative;
+            text-align: center;
+            padding-top: 50px;
+}
+.slide-container {
+  margin: 10px auto;
+  width: 20%;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  //width: 30%;
+}
+.wrapper:focus {
+  outline: 0;
+}
+
+.clash-card {
+  background: white;
+  width: 80%;
+  height: 480px;
+  display: inline-block;
+  margin: 3%;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  opacity:0.7;
+}
+.clash-card a{
+	text-decoration: none;
+}
+.clash-card__image img{
+  position: relative;
+  height: 220px;
+  width : 100%;
+  margin-top: 10px;
+  border-radius: 14px;
+  border-top-right-radius: 14px;
+  background-size: contain;
+}
+.clash-card__level {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.clash-card__unit-name {
+  font-size: 24px;
+  color: black;
+  line-height: 1.3em;
+  font-weight: 900;
+
+  margin-bottom: 3px;
+  padding: 5px;
+}
+
+.clash-card__unit-description {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+.clash-card:hover {
+  width: 90%;
+  top: -3px;
+    left: -3px;
+    transition: all 0.6s ease 0s;
+  opacity: 1;
+  border: 3px solid black;
+}
+
+.slick-prev {
+  left: 100px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 100px;
+  z-index: 999;
+}
+.moreEvents {
+	
+    padding-bottom: 50px;
+}
+.moreEvents a{
+	font: 40px "Lato", Arial, sans-serif;
+  	color: white;
+	position: relative;
+    text-align: center;
+}
