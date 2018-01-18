@@ -821,7 +821,7 @@ height:auto;
 }
  .subsection
 {
-background-image:url(../img/im2.jpg);
+background-image:url("/static/img/backg.jpeg");
 background-size:2000px 730px;
 background-repeat:no-repeat;
  width:100%;
