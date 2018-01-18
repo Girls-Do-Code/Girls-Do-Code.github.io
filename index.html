@@ -16,11 +16,11 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
     <link href="static/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
   </head>
 
   <body>
@@ -49,9 +49,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#events">Events</a>
             </li>
 
             <li class="nav-item">
@@ -110,48 +107,21 @@
   </div>
   </section>
 
- <section id="events">
-    <div class="row">
-      <div class="col-md-12 section-heading text-center">
-        <h1 id="center-event">Events</h1>
-      </div>
-      <div class="slide-container col-md-4 col-sm-6 col-xxs-12" v-for="index in 6">
-        <div class="wrapper " v-if="sortedEvents.length > 0">
-          <div class="clash-card "  >
-             <a v-bind:href="sortedEvents[index].link" target="_blank">
-              <div class="clash-card__image ">
-                <img v-bind:src="imgUrl[index-1]" />
-              </div>
-              <div class="clash-card__level "><i class="fa fa-calendar" aria-hidden="true"></i>
-{{ sortedEvents[index].date }}</div><hr>
-              <div class="clash-card__unit-name">{{ sortedEvents[index].title }}</div>
-              <div class="clash-card__unit-description">
-                 <i class="fa fa-map-marker" aria-hidden="true"></i>  {{ sortedEvents[index].location }}
-              </div>
-            </a>
-          </div> <!-- end clash-card barbarian-->
-        </div> <!-- end wrapper -->
-      </div> <!-- end container -->
-    </div>
-    <div class="moreEvents"><a href="/events" target="_blank"> More Events</a></div>
-</section>
-
   <div id="goals" class="go1">
-    <div class="go">
-      <h1>
-         OUR GOALS
-      </h1>
-      <p>This project is started with an aim to get more woman contributors to Open Source.</p>
-      <div class="git"><i class="fa fa-github"></i><br><h3>GitHub</h3><span>Get women started with Git and Github</span></div>
-      
-      <div class="aware"><i class="fa fa-eye"></i><br><h3>Awareness</h3><span>Making Women aware about open source development.</span></div>
-      
-      <div class="empower"><i class="fa fa-female"></i><br>
-        <h3>Woman Empowerment</h3>
-        <span>Empowering women by improving participation.</span>
-      </div>
-      <div class="git"><i class="fa fa-github"></i></div>
-    </div>
+  <div class="go">
+  <h1>
+     OUR GOALS
+  </h1>
+  <p>This project is started with an aim to get more woman contributors to Open Source.</p>
+  <div class="git"><i class="fa fa-github"></i><br><h3>GitHub</h3><span>Get women started with Git and Github</span></div>
+  <div class="aware"><i class="fa fa-eye"></i><br><h3>Awareness</h3><span>Making Women aware about open source development.</span></div>
+  <div class="empower"><i class="fa fa-female"></i><br><h3>Woman Empowerment</h3><span>Empowering women by improving participation.
+  </span>
+  </div>
+
+
+  <div class="git"><i class="fa fa-github"></i></div>
+  </div>
   </div>
 
  <section id="women_organizations">
@@ -302,13 +272,6 @@
     }
   });
 });
-</script>
-<script src="https://unpkg.com/vue"></script>
-<script src="./static/js/events.js"></script>
-
-<script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
-
-=======
 $(document).ready(function() {
  
     setTimeout(function(){
@@ -317,11 +280,9 @@ $(document).ready(function() {
     }, 3000);
  
 });
- </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 </body>
-<script src="https://unpkg.com/vue"></script>
-<script src="./static/js/events.js"></script>
 
 </html>
