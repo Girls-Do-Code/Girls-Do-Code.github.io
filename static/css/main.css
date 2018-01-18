@@ -654,7 +654,7 @@ height:auto;
             font-weight: 900;
         }
         
-        .jumbotron{
+.jumbotron{
             height: auto;
             margin: 0;
             font-family: "Roboto";
@@ -669,9 +669,25 @@ height:auto;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
             color: white;
-        }
+}
+.jumbotron1{
+            height: auto;
+            margin: 0;
+            font-family: "Roboto";
+            padding: 80px 0;
+            text-align: center;
+            font-size:25px;
+            font-weight: 100;
+            z-index:1000;
+            	background: linear-gradient(-45deg, #F3CD05, #F49F05, #F18904, #BDA589);
+            background-size: 400% 400%;
+            -webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+            color: white;
+}
         
-        @-webkit-keyframes Gradient {
+@-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
 	}
@@ -767,20 +783,22 @@ height:auto;
 }
 .git
 {
-	position: absolute;
-    top:250px;
-    left:150px;
-    font-size: 20px;
+	
+	color: black;
+    left:245px;
+    font-weight: 500;
+    font-size: 30px;
 
 }
-.aware{
+.goal
+{
 	position: absolute;
-    top:250px;
-    left:700px;
-    font-size: 20px;
+	top: 2230px;
+	left: 1200px;
+	height: 100px;
+	width: 100px;
 }
- 
- .empower
+
 {
 	position: absolute;
     top:500px;
