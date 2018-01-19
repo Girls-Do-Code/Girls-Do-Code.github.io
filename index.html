@@ -8,28 +8,27 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
     <title>Girls Who Code</title>
     <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
-
     <!-- Bootstrap core CSS -->
-
-    
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    
-	  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/css/main.css" rel="stylesheet">
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
   </head>
 
   <body>
+	  <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -63,10 +62,10 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
-<li class="nav-item">
+             <li class="nav-item">
               <a class="nav-link" href="#contributors">Contributors</a>
             </li>
-         
+        
           </ul>
         </div>
       </div>
@@ -112,22 +111,17 @@
   </div>
   </section>
 
-  <div id="goals" class="go1">
-  <div class="go">
+  <section id="goals">
+  <div class="jumbotron1">
   <h1>
      OUR GOALS
   </h1>
-  <p>This project is started with an aim to get more woman contributors to Open Source.</p>
-  <div class="git"><i class="fa fa-github"></i><br><h3>GitHub</h3><span>Get women started with Git and Github</span></div>
-  <div class="aware"><i class="fa fa-eye"></i><br><h3>Awareness</h3><span>Making Women aware about open source development.</span></div>
-  <div class="empower"><i class="fa fa-female"></i><br><h3>Woman Empowerment</h3><span>Empowering women by improving participation.
-  </span>
-  </div>
-
-
-  <div class="git"><i class="fa fa-github"></i></div>
-  </div>
-  </div>
+  <p>This project is started with an aim to get more woman contributors to Open Source. What we want is more females enchanted with the mysteries of open source and to feel happy and proud writing codes or contributing to an open source project.</p>
+  <img class="goal" src="http://codetoinspire.org/wp-content/themes/cti/images/xcti-square.png.pagespeed.ic.W5rpEgVxmi.png">
+  <div><h4 class="git">Empower</h4><span class="git1">Empower women with skills needed for professional achievements.</span></div>
+  <div><h4 class="git">Action</h4><span class="git1">Our driving force is to push conversation forward and encourage action around gender parity.</span></div>
+  <div><h4 class="git">A Role Model</h4><span class="git1">Build a global community where networking and mentorship is valued.</span></div>
+ </section>
 
  <section id="women_organizations">
   <div class="jumbotron" >
@@ -219,16 +213,16 @@
 <p>Feel Free to Contact us for any help</p>
   </div>
  </section>  
-<div class="subsection" id="contributors" ><p class="cont"  >CONTRIBUTORS</p>
-<i class="cont1" ><b class="name"> Sneha Mishra</b><br><a href="https://github.com/Tlazypanda" class="link">Github profile</a></i>
-<i class="cont2"><b class="name"> Ananya Agrawal
-</b><br><a href="https://github.com/ananya-agrawal" class="link">Github profile</a></i>
-<i class="cont3"><b class="name"> Adya Mishra</b></b><br><a href="https://github.com/Panda2498" class="link">Github profile</a></i></i>
-<i class="cont4" ><b class="name">Nikita Jain</b></b><br><a href="https://github.com/nikki1016" class="link">Github profile</a></i></i>
-<i class="cont5" ><b class="name">Muskan Chugh</b></b><br><a href="https://github.com/muskan6769" class="link">Github profile</a></i></i>
-<i class="cont6"><b class="name"> Esha Jaiswal</b></b><br><a href="https://github.com/Esha23" class="link" >Github profile</a></i></i>
+<div class="subsection" id="contributors" ><p class="cont"  ><b>CONTRIBUTORS</b></p>
+<a href="https://github.com/Tlazypanda" class="link"><b>Sneha Mishra</b></a>
+<a href="https://github.com/ananya-agrawal" class="link1"><b>Ananya Agrawal </b></a>
+<a href="https://github.com/Panda2498" class="link2"><b>Adya Mishra</b></a>
+<a href="https://github.com/nikki1016" class="link3"><b>Nikita Jain</b></a>
+<a href="https://github.com/muskan6769" class="link4"><b>Muskan Chugh</b></a>
+<a href="https://github.com/Esha23" class="link5" ><b>Esha Jaiswal </b></a>
 </div>
            
+     
 
                                    
      <footer id="footer" role="contentinfo">
@@ -287,8 +281,17 @@
     }
   });
 });
-</script>
-
+$(document).ready(function() {
+ 
+    setTimeout(function(){
+        $('body').addClass('loaded');
+        $('h1').css('color','#222222');
+    }, 3000);
+ 
+});
+  </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 </body>
 
 </html>
