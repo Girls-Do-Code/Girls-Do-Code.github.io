@@ -17,11 +17,25 @@ body {
   background-size: cover;
   font: 14px/20px "Lato", Arial, sans-serif;
   color: #9E9E9E;
-  margin-top: 30px;
+  margin-top: 20px;
 }
-
-
-    .square-flip{
+#events{
+  margin: 3% auto;
+}
+.centerflipcards{
+    display: inline-block;
+      text-align:center;
+      justify-content: center;
+      margin:2% auto;
+      margin-top:15px;
+}
+.centerflipcards p{
+      font-family:"Open Sans";
+      font-size:13px;
+      margin-top:10px;
+      font-weight:700;
+}
+.square-flip{
     -webkit-perspective: 1000;
     -moz-perspective: 1000;
     -ms-perspective: 1000;
@@ -38,25 +52,22 @@ body {
     transform-style: preserve-3d; 
 
     /*border:1px solid #efefef;*/
-    
-    position:relative;
-    margin:20px auto;
     display: inline-block;
-
-    }
+    width:29%;
+    left: 4.5%;
+      height:300px;
+    margin: 2% auto;
+}
     hr{
       border : 1px solid white;
       opacity :0.5;
 
     }
-    .square-flip{
-      width:300px;
-      height:300px;
-      margin: 20px;
-    }
+   
     .square,.square2{
-      width:100%;
-      height:100%;
+      width:90%;
+      height:90%;
+      margin: 20px;
     }
     .square{
 
@@ -64,8 +75,8 @@ body {
       background-position:center center;
 
       -ms-transition: transform 0.60s cubic-bezier(.5,.3,.3,1);
-          transition: transform 0.60s cubic-bezier(.5,.3,.3,1);
-          -webkit-transition: transform 0.60s cubic-bezier(.5,.3,.3,1);
+      transition: transform 0.60s cubic-bezier(.5,.3,.3,1);
+      -webkit-transition: transform 0.60s cubic-bezier(.5,.3,.3,1);
       overflow: hidden;
 
       position:absolute;
@@ -274,17 +285,82 @@ body {
 
     
     /*You can delete this style*/
-    .centerflipcards{
-      display: inline-block;
-      
-      text-align:center;
-      margin:0 auto;
-      margin-top:25px;
-    }
+ 
 .clearfix{clear:both;}
-.centerflipcards p{
-      font-family:"Open Sans";
-      font-size:13px;
-      margin-top:10px;
-      font-weight:700;
+
+
+@media only screen and (max-width: 768px) {
+    /* Style adjustments for viewports that meet the condition */
+
+  .centerflipcards{
+      display: inline-block;
+        text-align:center;
+        justify-content: center;
+        margin:1% auto;
+        margin-top:15px;
+  }
+  .centerflipcards p{
+        font-family:"Open Sans";
+        font-size:10px;
+        margin-top:10px;
+        font-weight:700;
+  }
+  .square-flip{
+      width:49%;
+      left: 0%;
+  }
+  .square-flip h2{
+      color:white;
+      font-family: "Open Sans";
+      font-weight:600;
+      font-size:20px;
+    }
+    .square-flip h3{
+      color:white;
+      font-family: "Open Sans";
+      font-weight:400;
+      font-size:14px;
+      line-height:24px;
+    }
+    .square,.square2{
+      
+      margin: 10px;
+    }
+  
+}
+@media only screen and (max-width: 480px) {
+    /* Style adjustments for viewports that meet the condition */
+
+  .centerflipcards{
+      display: inline-block;
+        text-align:center;
+        justify-content: center;
+        margin:2% auto;
+        margin-top:15px;
+  }
+  .centerflipcards p{
+        font-family:"Open Sans";
+        font-size:10px;
+        margin-top:10px;
+        font-weight:700;
+  }
+  .square-flip{
+      width:90%;
+      left: 0%;
+      
+  }
+  .square-flip h2{
+      color:white;
+      font-family: "Open Sans";
+      font-weight:600;
+      font-size:20px;
+    }
+    .square-flip h3{
+      color:white;
+      font-family: "Open Sans";
+      font-weight:400;
+      font-size:14px;
+      line-height:24px;
+    }
+  
 }

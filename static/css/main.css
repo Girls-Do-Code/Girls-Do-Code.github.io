@@ -1,15 +1,4 @@
-/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
 
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
- 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 *, *:before, *:after {
   box-sizing: border-box;
@@ -102,7 +91,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-    #foss {
+#foss {
   margin-top: 1vh; 
   width : 10vh;
   height : 4vh;
@@ -672,6 +661,22 @@ height:auto;
 	animation: Gradient 15s ease infinite;
             color: white;
 }
+#about .jumbotron p{
+	line-height: 2em;
+    width: 100%;
+    font-family: "Roboto";
+    padding: 10% 10%;
+    font-size:28px;
+    font-weight: 400;
+}
+#projects .jumbotron p{
+	line-height: 2em;
+    width: 100%;
+    font-family: "Roboto";
+    padding: 10% 10%;
+    font-size:28px;
+    font-weight: 400;
+}
 .jumbotron1{
             height: auto;
             margin: 0;
@@ -1160,8 +1165,10 @@ strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
 .clash-card__image img{
   position: relative;
   height: 220px;
-  width : 100%;
+  width : 96%;
+  margin: 2%;
   margin-top: 10px;
+
   border-radius: 14px;
   border-top-right-radius: 14px;
   background-size: contain;
@@ -1183,8 +1190,9 @@ strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
 }
 
 .clash-card__unit-description {
-  padding: 10px;
-  margin-bottom: 5px;
+  padding: 5px;
+  margin-bottom: 3px;
+
 }
 
 
@@ -1217,7 +1225,6 @@ strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
   z-index: 999;
 }
 .moreEvents {
-	
     padding-bottom: 50px;
 }
 .moreEvents a{
@@ -1225,4 +1232,90 @@ strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
   	color: white;
 	position: relative;
     text-align: center;
+}
+
+
+@media only screen and (max-width: 590px) {
+	.slide-container {
+	  margin: 2% auto;
+	  width: 80%;
+	  text-align: center;
+	}
+
+	hr {
+	    height: 1px;
+	    margin: 1px;
+	}
+	.wrapper {
+	  padding-top: 5px;
+	  //width: 30%;
+	}
+
+	.clash-card {
+	  height: 220px;
+	  
+	}
+	.clash-card__image img{
+	  
+	  display: none;
+	}
+	.clash-card__level {
+	  text-transform: uppercase;
+	  font-size: 16px;
+	  font-weight: 500;
+	  margin-top: 5px;
+	}
+	.clash-card__unit-name {
+	  font-size: 18px;
+	  color: black;
+	  line-height: 1.3em;
+	  font-weight: 600;
+	  margin-bottom: 3px;
+	  padding: 3px;
+	}
+
+	.clash-card__unit-description {
+	  padding: 2px;
+	  margin-bottom: 3px;
+	  font-size: 16px;
+	  font-weight: 500;
+	}
+	.sp-container h2 {
+		font-family: "Lobster";
+		top: 50%;
+		line-height: 100px;
+		height: 90px;
+		margin-top: 0px;
+		font-size: 60px;
+		width: 100%;
+		text-align: center;
+		color: transparent;
+		-webkit-animation: blurFadeInOut 3s ease-in backwards;
+		-moz-animation: blurFadeInOut 3s ease-in backwards;
+		-ms-animation: blurFadeInOut 3s ease-in backwards;
+		animation: blurFadeInOut 3s ease-in backwards;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	hr {
+	    height: 1px;
+	    margin: 2px;
+	}
+	
+}
+@media only screen and (max-width: 960px) {
+	
+	.clash-card__unit-name {
+	  font-size: 20px;
+	  font-weight: 600;
+	}
+
+	.clash-card__unit-description {
+	 padding: 2px;
+	  margin-bottom: 3px;
+	  font-size: 16px;
+	  font-weight: 500;
+	}
+	
 }
