@@ -1,4 +1,5 @@
 
+
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 *, *:before, *:after {
   box-sizing: border-box;
@@ -770,6 +771,7 @@ height:auto;
 }
 body {
     padding-top: 54px;
+    position: relative;
 }
 @media (min-width: 992px) {
     body {

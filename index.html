@@ -25,15 +25,15 @@
 
   </head>
 
-  <body>
-    <div id="loader-wrapper">
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+	  <div id="loader-wrapper">
       <div id="loader"></div>
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
     </div>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-inverse">
       <div class="container">
         <a class="navbar-brand" href="#">Girls Who Code</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,29 +41,31 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
+            <li>
+              <a class="nav-link" href="#start">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
+            <li>
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item">
+            <li>
               <a class="nav-link" href="#projects">Projects</a>
             </li>
 
-            <li class="nav-item">
+            <li>
               <a class="nav-link" href="#goals">Goals</a>
             </li>
-            <li class="nav-item">
+
+            <li>
+
               <a class="nav-link" href="#women_organizations">Women-Organizations</a>
             <li class="nav-item">
               <a class="nav-link" href="#events">Events</a>
             </li>
             </li>
             
-            <li class="nav-item">
+            <li>
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -325,8 +327,9 @@
         }
        
       }
-</script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
