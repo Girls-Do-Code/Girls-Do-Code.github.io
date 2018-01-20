@@ -9,6 +9,9 @@ html {
     line-height: 1.4;
     box-sizing: border-box;
 }
+body{
+	width: 100%;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -326,9 +329,9 @@ height:auto;
 
 	position: absolute;
 	font-family: "Lobster";
-	top: 50%;
-	line-height: 100px;
-	height: 90px;
+	top: 45%;
+	line-height: 80px;
+	height: 80px;
 	margin-top: 0px;
 	font-size: 90px;
 	width: 100%;
@@ -635,7 +638,8 @@ height:auto;
 }
 /* css styles for jumbotron and animation */
 
-.sec{font-family: "Roboto";
+.sec{
+	font-family: "Roboto";
             font-size: 40px;
             text-align: center;
             padding-top: 180px;
@@ -643,7 +647,7 @@ height:auto;
             color: antiquewhite;
             height: 600px;
             font-weight: 900;
-        }
+}
         
 .jumbotron{
             height: auto;
@@ -743,48 +747,6 @@ height:auto;
   text-align: center;
 }*/
 
-
-
-.go{
-	background: -webkit-linear-gradient(goldenrod, tomato 110%);
-	/*background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg) no-repeat center center fixed; */
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	color: white;
-	height: 730px;
-	position: relative;
-}
-
-.go h1{
-    position: absolute;
-	margin: 80px auto;
-	text-align: center;
-	color:black;
-	padding: 40px;
-}
-
-.go h3{
-	opacity: 1;
-	font-weight: bold;
-}
-
-.go p { 
-	 position: absolute;
-	margin-top: 170px;
-	font-size: 25px;
-	padding-left:40px;
-	color:purple;
-}
-.go i{
-    font-size: 100px;
-    
-}
-
-.go span{
-	color:purple;
-}
 .git
 {
 	
@@ -1235,6 +1197,118 @@ strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
 }
 
 
+@media only screen and (max-width: 480px) {
+	.slide-container {
+	  margin: 2% auto;
+	  width: 80%;
+	  text-align: center;
+	}
+
+	hr {
+	    height: 1px;
+	    margin: 1px;
+	}
+	.wrapper {
+	  padding-top: 5px;
+	  //width: 30%;
+	}
+
+	.clash-card {
+	  height: 220px;
+	  
+	}
+	.clash-card__image img{
+	  
+	  display: none;
+	}
+	.clash-card__level {
+	  text-transform: uppercase;
+	  font-size: 16px;
+	  font-weight: 500;
+	  margin-top: 5px;
+	}
+	.clash-card__unit-name {
+	  font-size: 18px;
+	  color: black;
+	  line-height: 1.3em;
+	  font-weight: 600;
+	  margin-bottom: 3px;
+	  padding: 3px;
+	}
+
+	.clash-card__unit-description {
+	  padding: 2px;
+	  margin-bottom: 3px;
+	  font-size: 16px;
+	  font-weight: 500;
+	}
+	.sp-container h2 {
+		top: 40%;
+		line-height: 100px;
+		height: 80px;
+	}
+	.jumbotron h1 {
+            font-size:32px;
+            font-weight: 100;
+	}
+	.organization {
+	  width: 100%;
+	  min-height: 200px;
+	  padding: 0;
+	  padding-top: 30px;
+	  padding-bottom: 70px;
+	}
+	.organization-badge {
+	    width: 50%;
+	    margin: 5px 25%;
+	    height: 200px;
+	    border-radius: 0 0 100px 100px;
+	    //overflow: hidden;
+	    transform: rotate(0deg); /* To force its own layer */
+	    position: relative;
+	    display: block;
+	    top: 0;
+	     left: 0;
+	}
+	.organization-badge img {
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    transition: 500ms;
+	}
+	.organization h3 a {
+	     margin: 0;
+	     font-weight: 200;
+	     font-size: 24px;
+	     color: black;
+	}
+	.organization div {
+	     font-weight: 50;
+	     font-size: 18px;
+	     float: left;
+	}
+	.git
+	{
+	    font-weight: 400;
+	    font-size: 28px;
+
+	}
+	.git1{
+		font-weight: 300;
+	    font-size: 25px;
+	}
+	.goal 
+	{
+		position: relative;
+		top: 90%;
+		float : right;
+		height: 5%;
+		width: 10%;
+	}
+
+
+
+}
 @media only screen and (max-width: 590px) {
 	.slide-container {
 	  margin: 2% auto;
@@ -1282,8 +1356,8 @@ strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
 	}
 	.sp-container h2 {
 		font-family: "Lobster";
-		top: 50%;
-		line-height: 100px;
+		top: 40%;
+		line-height: 80px;
 		height: 90px;
 		margin-top: 0px;
 		font-size: 60px;
@@ -1294,6 +1368,31 @@ strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
 		-moz-animation: blurFadeInOut 3s ease-in backwards;
 		-ms-animation: blurFadeInOut 3s ease-in backwards;
 		animation: blurFadeInOut 3s ease-in backwards;
+	}
+	#about .jumbotron p{
+		line-height: 1.6em;
+	    width: 100%;
+	    font-family: "Roboto";
+	    padding: 10% 10%;
+	    font-size:26px;
+	    font-weight: 300;
+	}
+	#projects .jumbotron p{
+		line-height: 1.6em;
+	    width: 100%;
+	    font-family: "Roboto";
+	    padding: 10% 10%;
+	    font-size:26px;
+	    font-weight: 300;
+	}
+	.sec{
+            font-size: 30px;
+            text-align: center;
+            padding-top: 150px;
+            background-image: url(../img/banner.jpg);
+            color: antiquewhite;
+            height: 480px;
+            font-weight: 900;
 	}
 }
 
