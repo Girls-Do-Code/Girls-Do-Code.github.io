@@ -52,16 +52,15 @@
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#events">Events</a>
-            </li>
 
             <li class="nav-item">
               <a class="nav-link" href="#goals">Goals</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="#women_organizations">Women-Organizations</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#events">Events</a>
+            </li>
             </li>
             
             <li class="nav-item">
@@ -112,32 +111,6 @@
   </div>
   </section>
 
- <section id="events">
-    <div class="row">
-      <div class="col-md-12 section-heading text-center">
-        <h1 id="center-event">Events</h1>
-      </div>
-      <div class="slide-container col-md-4 col-sm-6 col-xs-12" v-for="index in 6">
-        <div class="wrapper " v-if="sortedEvents.length > 0">
-          <div class="clash-card "  >
-             <a v-bind:href="sortedEvents[index].link" target="_blank">
-              <div class="clash-card__image ">
-                <img v-bind:src="imgUrl[index-1]" />
-              </div>
-              <div class="clash-card__level "><i class="fa fa-calendar" aria-hidden="true"></i>
-{{ sortedEvents[index].date }}</div><hr>
-              <div class="clash-card__unit-name">{{ sortedEvents[index].title }}</div>
-              <div class="clash-card__unit-description">
-                 <i class="fa fa-map-marker" aria-hidden="true"></i>  {{ sortedEvents[index].location }}
-              </div>
-            </a>
-          </div> <!-- end clash-card barbarian-->
-        </div> <!-- end wrapper -->
-      </div> <!-- end container -->
-    </div>
-    <div class="moreEvents"><a href="/Girls-who-code/events" target="_blank"> More Events</a></div>
-</section>
-
 <section id="goals">
   <div class="jumbotron1">
   <h1>
@@ -150,6 +123,7 @@
   <div><h4 class="git">A Role Model</h4><span class="git1">Build a global community where networking and mentorship is valued.</span></div>
   <img class="goal" src="http://codetoinspire.org/wp-content/themes/cti/images/xcti-square.png.pagespeed.ic.W5rpEgVxmi.png">
  </section>
+
 
  <section id="women_organizations">
   <div class="jumbotron" >
@@ -191,6 +165,34 @@
   </div>
   </div>
  </section> 
+
+ <section id="events">
+    <div class="row">
+      <div class="col-md-12 section-heading text-center">
+        <h1 id="center-event">Events</h1>
+      </div>
+      <div class="slide-container col-md-4 col-sm-6 col-xs-12" v-for="index in 6">
+        <div class="wrapper " v-if="sortedEvents.length > 0">
+          <div class="clash-card "  >
+             <a v-bind:href="sortedEvents[index].link" target="_blank">
+              <div class="clash-card__image ">
+                <img v-bind:src="imgUrl[index-1]" />
+              </div>
+              <div class="clash-card__level "><i class="fa fa-calendar" aria-hidden="true"></i>
+{{ sortedEvents[index].date }}</div><hr>
+              <div class="clash-card__unit-name">{{ sortedEvents[index].title }}</div>
+              <div class="clash-card__unit-description">
+                 <i class="fa fa-map-marker" aria-hidden="true"></i>  {{ sortedEvents[index].location }}
+              </div>
+            </a>
+          </div> <!-- end clash-card barbarian-->
+        </div> <!-- end wrapper -->
+      </div> <!-- end container -->
+    </div>
+    <div class="moreEvents"><a href="/Girls-who-code/events" target="_blank"> More Events</a></div>
+</section>
+
+
  <section id="contact">
  <div class="jumbotron">
  <h1>Contact Us</h1>
@@ -307,14 +309,7 @@
     }, 3000);
  
 });
-<<<<<<< HEAD
-</script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-=======
-
-
-
-var text="Only 1 in 10 Open Source Contributors are women.";
+    var text="Only 1 in 10 Open Source Contributors are women.";
  var i=0;
         var speed=120;
         
@@ -330,9 +325,9 @@ var text="Only 1 in 10 Open Source Contributors are women.";
         }
        
       }
-  </script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
->>>>>>> 0e3c1de458a36961d8ec95b050ba0b75d3bc43f2
+</script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
 <script src="https://unpkg.com/vue"></script>
