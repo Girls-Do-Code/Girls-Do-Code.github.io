@@ -16,15 +16,17 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link href="static/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
 
   </head>
 
   <body>
-	  <div id="loader-wrapper">
+    <div id="loader-wrapper">
       <div id="loader"></div>
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
@@ -54,9 +56,11 @@
             <li class="nav-item">
               <a class="nav-link" href="#goals">Goals</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="#women_organizations">Women-Organizations</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#events">Events</a>
+            </li>
             </li>
             
             <li class="nav-item">
@@ -69,7 +73,7 @@
 
     <!-- Page Content -->
     
-				   
+           
    <section id="start" >
       <div class="sp-container">
       <div class="sp-content">
@@ -88,8 +92,8 @@
     </div>
     </section>
     
-	  
-	<section id="about">
+    
+  <section id="about">
       <div class="jumbotron">
       <p>Open source is the foundation on which the Internet is built. For its continued success, it's critical to incorporate diverse voices and engage people with different experiences, talents, and viewpoints. Otherwise we risk a world of technology created by, and supporting, a non-inclusive and hostile monoculture.</p>
       </div>
@@ -102,22 +106,24 @@
   </div>
         
   <section id="projects">
-	<div class="jumbotron " >
+  <div class="jumbotron " >
   <p>Together we can make things better. OS4W aims to be a resource for connecting all women, including women of color and transgender women, to open source projects that are welcoming, inclusive, and appreciative of diversity in their contributors</p>
   </div>
   </section>
 
-  <section id="goals">
+<section id="goals">
   <div class="jumbotron1">
   <h1>
      OUR GOALS
   </h1>
   <p>This project is started with an aim to get more woman contributors to Open Source. What we want is more females enchanted with the mysteries of open source and to feel happy and proud writing codes or contributing to an open source project.</p>
-  <img class="goal" src="http://codetoinspire.org/wp-content/themes/cti/images/xcti-square.png.pagespeed.ic.W5rpEgVxmi.png">
+  
   <div><h4 class="git">Empower</h4><span class="git1">Empower women with skills needed for professional achievements.</span></div>
   <div><h4 class="git">Action</h4><span class="git1">Our driving force is to push conversation forward and encourage action around gender parity.</span></div>
   <div><h4 class="git">A Role Model</h4><span class="git1">Build a global community where networking and mentorship is valued.</span></div>
+  <img class="goal" src="http://codetoinspire.org/wp-content/themes/cti/images/xcti-square.png.pagespeed.ic.W5rpEgVxmi.png">
  </section>
+
 
  <section id="women_organizations">
   <div class="jumbotron" >
@@ -159,6 +165,34 @@
   </div>
   </div>
  </section> 
+
+ <section id="events">
+    <div class="row">
+      <div class="col-md-12 section-heading text-center">
+        <h1 id="center-event">Events</h1>
+      </div>
+      <div class="slide-container col-md-4 col-sm-6 col-xs-12" v-for="index in 6">
+        <div class="wrapper " v-if="sortedEvents.length > 0">
+          <div class="clash-card "  >
+             <a v-bind:href="sortedEvents[index].link" target="_blank">
+              <div class="clash-card__image ">
+                <img v-bind:src="imgUrl[index-1]" />
+              </div>
+              <div class="clash-card__level "><i class="fa fa-calendar" aria-hidden="true"></i>
+{{ sortedEvents[index].date }}</div><hr>
+              <div class="clash-card__unit-name">{{ sortedEvents[index].title }}</div>
+              <div class="clash-card__unit-description">
+                 <i class="fa fa-map-marker" aria-hidden="true"></i>  {{ sortedEvents[index].location }}
+              </div>
+            </a>
+          </div> <!-- end clash-card barbarian-->
+        </div> <!-- end wrapper -->
+      </div> <!-- end container -->
+    </div>
+    <div class="moreEvents"><a href="/Girls-who-code/events" target="_blank"> More Events</a></div>
+</section>
+
+
  <section id="contact">
  <div class="jumbotron">
  <h1>Contact Us</h1>
@@ -212,19 +246,19 @@
 
                                    
      <footer id="footer" role="contentinfo">
-			<div class="container">
-			
-	
-			<div class="row">
+      <div class="container">
+      
+  
+      <div class="row">
 
         <div class="col-md-4 text-center">
 
-					<ul class= "list-inline" style="float: left; margin-right: 0px ;">
+          <ul class= "list-inline" style="float: left; margin-right: 0px ;">
 
-						<li class="list-inline-item"><a href="https://github.com/fossiiita" target="_blank"><img class="img-responsive" id="foss" src="static/img/foss.png"></a></li>
-						<li class="list-inline-item"><a href="https://geekhaven.iiita.ac.in/"><img class="img-responsive" id="geek" src="static/img/Geekhaven.png"></a></li>
-						<li class="list-inline-item"><a href="https://www.iiita.ac.in/"><img class="img-responsive" id="iiita" src="static/img/iiita.png"></a></li>
-					</ul>
+            <li class="list-inline-item"><a href="https://github.com/fossiiita" target="_blank"><img class="img-responsive" id="foss" src="static/img/foss.png"></a></li>
+            <li class="list-inline-item"><a href="https://geekhaven.iiita.ac.in/"><img class="img-responsive" id="geek" src="static/img/Geekhaven.png"></a></li>
+            <li class="list-inline-item"><a href="https://www.iiita.ac.in/"><img class="img-responsive" id="iiita" src="static/img/iiita.png"></a></li>
+          </ul>
         </div>
 
         <div class="col-md-4 text-center">
@@ -243,10 +277,10 @@
           </ul>
         </div>
 
-				</div>
-			</div>
-		</div>
-	</footer>                            
+        </div>
+      </div>
+    </div>
+  </footer>                            
 
     <!-- Bootstrap core JavaScript -->
     <script src="static/js/jquery.min.js"></script>
@@ -267,7 +301,7 @@
     }
   });
 });
-$(document).ready(function() {
+    $(document).ready(function() {
  
     setTimeout(function(){
         $('body').addClass('loaded');
@@ -275,10 +309,7 @@ $(document).ready(function() {
     }, 3000);
  
 });
-
-
-
-var text="Only 1 in 10 Open Source Contributors are women.";
+    var text="Only 1 in 10 Open Source Contributors are women.";
  var i=0;
         var speed=120;
         
@@ -294,9 +325,14 @@ var text="Only 1 in 10 Open Source Contributors are women.";
         }
        
       }
-  </script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-</body>
+</script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+<script src="https://unpkg.com/vue"></script>
+<script src="./static/js/events.js"></script>
+<script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
+
+</body>
 </html>
