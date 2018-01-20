@@ -1,20 +1,17 @@
-/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
 
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
     box-sizing: border-box;
+}
+body{
+	width: 100%;
 }
 
 /*
@@ -98,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-    #foss {
+#foss {
   margin-top: 1vh; 
   width : 10vh;
   height : 4vh;
@@ -126,7 +123,8 @@ textarea {
 }
 
 /*
- * Hide only visually, but have it available for screen readers:
+ * Hide only visually, but have it availab
+ le for screen readers:
  * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  *
  * 1. For long content, line feeds are not interpreted as spaces and small width
@@ -302,9 +300,6 @@ h1.main, p.demos {
 	animation-delay: 18s;
 }
 .sp-container {
-    
-	
-	
 	width: 100%;
 	height: 90vh;
 	z-index: 0;
@@ -335,9 +330,9 @@ height:auto;
 
 	position: absolute;
 	font-family: "Lobster";
-	top: 50%;
-	line-height: 100px;
-	height: 90px;
+	top: 45%;
+	line-height: 80px;
+	height: 80px;
 	margin-top: 0px;
 	font-size: 90px;
 	width: 100%;
@@ -644,7 +639,8 @@ height:auto;
 }
 /* css styles for jumbotron and animation */
 
-.sec{font-family: "Roboto";
+.sec{
+	font-family: "Roboto";
             font-size: 40px;
             text-align: center;
             padding-top: 180px;
@@ -652,7 +648,7 @@ height:auto;
             color: antiquewhite;
             height: 600px;
             font-weight: 900;
-        }
+}
         
 .jumbotron{
             height: auto;
@@ -670,6 +666,24 @@ height:auto;
 	animation: Gradient 15s ease infinite;
             color: white;
 }
+
+#about .jumbotron p{
+	line-height: 2em;
+    width: 100%;
+    font-family: "Roboto";
+    padding: 10% 10%;
+    font-size:28px;
+    font-weight: 400;
+}
+#projects .jumbotron p{
+	line-height: 2em;
+    width: 100%;
+    font-family: "Roboto";
+    padding: 10% 10%;
+    font-size:28px;
+    font-weight: 400;
+}
+
 .jumbotron1{
             height: auto;
             margin: 0;
@@ -736,51 +750,6 @@ height:auto;
   text-align: center;
 }*/
 
-
-
-.go{
-	background: -webkit-linear-gradient(goldenrod, tomato 110%);
-	/*background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg) no-repeat center center fixed; */
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	color: white;
-	height: 730px;
-	position: relative;
-	
-    
-}
-
-.go h1{
-    position: absolute;
-	margin-top: 80px;
-	text-align: center;
-	color:black;
-}
-
-.go h3{
-	opacity: 1;
-	font-weight: bold;
-}
-
-
-
-.go p { 
-	 
-	 position: absolute;
-	margin-top: 150px;
-	font-size: 25px;
-	color:purple;
-}
-.go i{
-    font-size: 100px;
-    
-}
-
-.go span{
-	color:purple;
-}
 .git
 {
 	
@@ -790,26 +759,22 @@ height:auto;
     font-size: 30px;
 
 }
-.goal
+
+.goal 
 {
-	position: absolute;
-	top: 2230px;
-	left: 1200px;
-	height: 100px;
-	width: 100px;
+	position: relative;
+	top: 90%;
+	float : right;
+	height: 5%;
+	width: 10%;
 }
 
-{
-	position: absolute;
-    top:500px;
-    left:150px;
-    font-size: 20px;
-}
 #footer{
 	padding: 30px;
 }
 body {
     padding-top: 54px;
+    position: relative;
 }
 @media (min-width: 992px) {
     body {
@@ -991,6 +956,7 @@ body {
     z-index: 10001;
 }
 
+
 #loader:before {
     content: "";
     position: absolute;
@@ -1110,6 +1076,7 @@ body {
     }
 
 strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
+
 .subsection
 {
 background-image:url(../img/backg.jpeg);
@@ -1175,3 +1142,351 @@ color:white;
 margin-left:1400px;
 }
  
+
+#events {
+  background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font: 20px/29px "Roboto", Arial, sans-serif;
+  color: white;
+	position: relative;
+            text-align: center;
+            padding-top: 20px;
+            width: 100%;
+	min-height: 100%;
+	max-width: $maxWidth;
+	overflow: hidden;
+}
+
+#events h1{
+	font: 40px "Lato", Arial, sans-serif;
+  	color: white;
+	position: relative;
+            text-align: center;
+            padding-top: 50px;
+}
+.slide-container {
+  margin: 10px auto;
+  width: 20%;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  //width: 30%;
+}
+.wrapper:focus {
+  outline: 0;
+}
+
+.clash-card {
+  background: white;
+  width: 80%;
+  height: 480px;
+  display: inline-block;
+  margin: 3%;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  opacity:0.7;
+}
+.clash-card a{
+	text-decoration: none;
+}
+.clash-card__image img{
+  position: relative;
+  height: 220px;
+  width : 96%;
+  margin: 2%;
+  margin-top: 10px;
+
+  border-radius: 14px;
+  border-top-right-radius: 14px;
+  background-size: contain;
+}
+.clash-card__level {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.clash-card__unit-name {
+  font-size: 24px;
+  color: black;
+  line-height: 1.3em;
+  font-weight: 900;
+
+  margin-bottom: 3px;
+  padding: 5px;
+}
+
+.clash-card__unit-description {
+  padding: 5px;
+  margin-bottom: 3px;
+
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+.clash-card:hover {
+  width: 90%;
+  top: -3px;
+    left: -3px;
+    transition: all 0.6s ease 0s;
+  opacity: 1;
+  border: 3px solid black;
+}
+
+.slick-prev {
+  left: 100px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 100px;
+  z-index: 999;
+}
+.moreEvents {
+    padding-bottom: 50px;
+}
+.moreEvents a{
+	font: 40px "Lato", Arial, sans-serif;
+  	color: white;
+	position: relative;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 480px) {
+	.slide-container {
+	  margin: 2% auto;
+	  width: 80%;
+	  text-align: center;
+	}
+
+	hr {
+	    height: 1px;
+	    margin: 1px;
+	}
+	.wrapper {
+	  padding-top: 5px;
+	  //width: 30%;
+	}
+
+	.clash-card {
+	  height: 220px;
+	  
+	}
+	.clash-card__image img{
+	  
+	  display: none;
+	}
+	.clash-card__level {
+	  text-transform: uppercase;
+	  font-size: 16px;
+	  font-weight: 500;
+	  margin-top: 5px;
+	}
+	.clash-card__unit-name {
+	  font-size: 18px;
+	  color: black;
+	  line-height: 1.3em;
+	  font-weight: 600;
+	  margin-bottom: 3px;
+	  padding: 3px;
+	}
+
+	.clash-card__unit-description {
+	  padding: 2px;
+	  margin-bottom: 3px;
+	  font-size: 16px;
+	  font-weight: 500;
+	}
+	.sp-container h2 {
+		top: 40%;
+		line-height: 100px;
+		height: 80px;
+	}
+	.jumbotron h1 {
+            font-size:32px;
+            font-weight: 100;
+	}
+	.organization {
+	  width: 100%;
+	  min-height: 200px;
+	  padding: 0;
+	  padding-top: 30px;
+	  padding-bottom: 70px;
+	}
+	.organization-badge {
+	    width: 50%;
+	    margin: 5px 25%;
+	    height: 200px;
+	    border-radius: 0 0 100px 100px;
+	    //overflow: hidden;
+	    transform: rotate(0deg); /* To force its own layer */
+	    position: relative;
+	    display: block;
+	    top: 0;
+	     left: 0;
+	}
+	.organization-badge img {
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    transition: 500ms;
+	}
+	.organization h3 a {
+	     margin: 0;
+	     font-weight: 200;
+	     font-size: 24px;
+	     color: black;
+	}
+	.organization div {
+	     font-weight: 50;
+	     font-size: 18px;
+	     float: left;
+	}
+	.git
+	{
+	    font-weight: 400;
+	    font-size: 28px;
+
+	}
+	.git1{
+		font-weight: 300;
+	    font-size: 25px;
+	}
+	.goal 
+	{
+		position: relative;
+		top: 90%;
+		float : right;
+		height: 5%;
+		width: 10%;
+	}
+
+
+
+}
+@media only screen and (max-width: 590px) {
+	.slide-container {
+	  margin: 2% auto;
+	  width: 80%;
+	  text-align: center;
+	}
+
+	hr {
+	    height: 1px;
+	    margin: 1px;
+	}
+	.wrapper {
+	  padding-top: 5px;
+	  //width: 30%;
+	}
+
+	.clash-card {
+	  height: 220px;
+	  
+	}
+	.clash-card__image img{
+	  
+	  display: none;
+	}
+	.clash-card__level {
+	  text-transform: uppercase;
+	  font-size: 16px;
+	  font-weight: 500;
+	  margin-top: 5px;
+	}
+	.clash-card__unit-name {
+	  font-size: 18px;
+	  color: black;
+	  line-height: 1.3em;
+	  font-weight: 600;
+	  margin-bottom: 3px;
+	  padding: 3px;
+	}
+
+	.clash-card__unit-description {
+	  padding: 2px;
+	  margin-bottom: 3px;
+	  font-size: 16px;
+	  font-weight: 500;
+	}
+	.sp-container h2 {
+		font-family: "Lobster";
+		top: 40%;
+		line-height: 80px;
+		height: 90px;
+		margin-top: 0px;
+		font-size: 60px;
+		width: 100%;
+		text-align: center;
+		color: transparent;
+		-webkit-animation: blurFadeInOut 3s ease-in backwards;
+		-moz-animation: blurFadeInOut 3s ease-in backwards;
+		-ms-animation: blurFadeInOut 3s ease-in backwards;
+		animation: blurFadeInOut 3s ease-in backwards;
+	}
+	#about .jumbotron p{
+		line-height: 1.6em;
+	    width: 100%;
+	    font-family: "Roboto";
+	    padding: 10% 10%;
+	    font-size:26px;
+	    font-weight: 300;
+	}
+	#projects .jumbotron p{
+		line-height: 1.6em;
+	    width: 100%;
+	    font-family: "Roboto";
+	    padding: 10% 10%;
+	    font-size:26px;
+	    font-weight: 300;
+	}
+	.sec{
+            font-size: 30px;
+            text-align: center;
+            padding-top: 150px;
+            background-image: url(../img/banner.jpg);
+            color: antiquewhite;
+            height: 480px;
+            font-weight: 900;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	hr {
+	    height: 1px;
+	    margin: 2px;
+	}
+	
+}
+@media only screen and (max-width: 960px) {
+	
+	.clash-card__unit-name {
+	  font-size: 20px;
+	  font-weight: 600;
+	}
+
+	.clash-card__unit-description {
+	 padding: 2px;
+	  margin-bottom: 3px;
+	  font-size: 16px;
+	  font-weight: 500;
+	}
+	
+}
