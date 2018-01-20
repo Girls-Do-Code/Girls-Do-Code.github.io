@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+	/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -810,6 +810,7 @@ height:auto;
 }
 body {
     padding-top: 54px;
+    position: relative;
 }
 @media (min-width: 992px) {
     body {
