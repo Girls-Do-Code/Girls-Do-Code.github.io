@@ -666,6 +666,7 @@ height:auto;
 	animation: Gradient 15s ease infinite;
             color: white;
 }
+
 #about .jumbotron p{
 	line-height: 2em;
     width: 100%;
@@ -682,6 +683,7 @@ height:auto;
     font-size:28px;
     font-weight: 400;
 }
+
 .jumbotron1{
             height: auto;
             margin: 0;
@@ -757,6 +759,7 @@ height:auto;
     font-size: 30px;
 
 }
+
 .goal 
 {
 	position: relative;
@@ -953,6 +956,7 @@ body {
     z-index: 10001;
 }
 
+
 #loader:before {
     content: "";
     position: absolute;
@@ -1072,6 +1076,70 @@ body {
     }
 
 strong {color: #888;margin:-5px 0 5px 0;display:block;font-size:.8em;}
+
+.subsection
+{
+background-image:url(../img/backg.jpeg);
+background-repeat:no-repeat;
+background-size:2000px 730px;
+width:100%;
+height:200px;
+
+}
+.cont
+{
+font-size:30px; 
+text-align:center;
+color:dogerblue;
+ }
+.link
+{
+margin-top:30px;
+position:absolute;
+font-size:25px; 
+color:white;
+margin-left:230px;
+}
+.link1
+{
+margin-top:30px;
+position:absolute;
+font-size:25px; 
+color:white;
+margin-left:800px;
+}
+.link2
+{
+margin-top:30px;
+position:absolute;
+font-size:25px; 
+color:white;
+margin-left:1400px;
+}
+.link3
+{
+margin-top:100px;
+position:absolute;
+font-size:25px; 
+color:white;
+margin-left:230px;
+}
+.link4
+{
+margin-top:100px;
+position:absolute;
+font-size:25px; 
+color:white;
+margin-left:800px;}
+.link5
+{
+margin-top:100px;
+position:absolute;
+font-size:25px; 
+color:white;
+margin-left:1400px;
+}
+ 
 
 #events {
   background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
