@@ -61,9 +61,12 @@
             <li>
 
               <a class="nav-link" href="#women_organizations">Women-Organizations</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#events">Events</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contributors">Contributors</a>
             </li>
             
             <li>
@@ -196,6 +199,31 @@
     <div class="moreEvents"><a href="/Girls-who-code/events" target="_blank"> More Events</a></div>
 </section>
 
+<section id="contributors">
+  <div class="jumbotron1">
+  <h1>Contributors</h1>
+  <div class="container">
+            <div class="row">
+            <div class="col-md-4 col-sm-4 contributor" v-for="index in 1">
+          <div class="team-member" v-if="sortedContributors.length > 0">
+            <div class="team-img">
+               <img v-bind:src="sortedContributors[index-1].image"  class="img-responsive"/>
+              </div>
+           <div class="team-hover">
+              <div class="desk">
+                <h2>{{ sortedContributors[index-1].name }}</h2>
+               </div>
+               <div class="s-link">
+                  <a v-bind:href="sortedContributors[index-1].github"><i class="fa fa-github"></i></a>
+               </div>
+             </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
 
  <section id="contact">
  <div class="jumbotron">
@@ -246,18 +274,8 @@
 </div>
 <p>Feel Free to Contact us for any help</p>
   </div>
- </section>    
-	<div class="subsection" id="contributors" ><p class="cont"  ><b>CONTRIBUTORS</b></p>
-<a href="https://github.com/Tlazypanda" class="link"><b>Sneha Mishra</b></a>
-<a href="https://github.com/ananya-agrawal" class="link1"><b>Ananya Agrawal </b></a>
-<a href="https://github.com/Panda2498" class="link2"><b>Adya Mishra</b></a>
-<a href="https://github.com/nikki1016" class="link3"><b>Nikita Jain</b></a>
-<a href="https://github.com/muskan6769" class="link4"><b>Muskan Chugh</b></a>
-<a href="https://github.com/Esha23" class="link5" ><b>Esha Jaiswal </b></a>
-	</div>
-
-                                   
-     <footer id="footer" role="contentinfo">
+ </section>
+<footer id="footer" role="contentinfo">
       <div class="container">
       
   
@@ -344,6 +362,7 @@
 
 <script src="https://unpkg.com/vue"></script>
 <script src="./static/js/events.js"></script>
+<script src="./static/js/contributors.js"></script>
 <script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
 <script src="particles.js"></script>
 <script src="app.js"></script>
