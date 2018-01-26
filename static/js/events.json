@@ -269,6 +269,30 @@
 			"date": "2017-02-01",
 			"location": "Taipei, Taiwan",
 			"link": "https://www.meetup.com/Women-Who-Code-Taipei/events/246714485/"
+		},
+		{
+			"title": "Hack-36",
+			"date": "2017-01-27",
+			"location": "Allahabad, India",
+			"link": "https://www.eventbrite.com/e/hack-36-tickets-40731005534"
+		},
+		{
+			"title": "Hackeam",
+			"date": "2017-01-27",
+			"location": "New Delhi, India",
+			"link": "https://www.eventbrite.com/e/hackeam-2018-registration-41042020789"
+		},
+		{
+			"title": "Hackrupt - NSIT'S Fintech Hackathon",
+			"date": "2017-02-3",
+			"location": "New Delhi, India",
+			"link": "http://hackrupt.consiliumnsit.com/"
+		},
+		{
+			"title": "Hack In The North",
+			"date": "2017-03-16",
+			"location": "Allahabad, India",
+			"link": "https://www.hackinthenorth.com/"
 		}
 		
 	]
