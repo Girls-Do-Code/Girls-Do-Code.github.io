@@ -1630,3 +1630,9 @@ img.logo
 	margin-right: 30px;
 	margin-left: -100px;
 }
+.rib
+{
+position:absolute;
+top:0px;
+right:0px;
+}
