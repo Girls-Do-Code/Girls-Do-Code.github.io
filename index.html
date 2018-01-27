@@ -21,6 +21,7 @@
      <link rel="stylesheet" type="text/css" href="style.css">
     <link href="static/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     
 
   </head>
@@ -35,6 +36,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-inverse">
       <div class="container">
+        <img src="logo11.png" class="logo">
         <a class="navbar-brand" href="#">Girls Who Code</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -60,9 +62,12 @@
             <li>
 
               <a class="nav-link" href="#women_organizations">Women-Organizations</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#events">Events</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contributors">Contributors</a>
             </li>
             
             <li>
@@ -88,13 +93,15 @@
           <span>Girls</span>
           <span>Who</span>
           <span>Code</span>
+    
         </h2>
         <a class="sp-circle-link" href="https://geekhaven.iiita.ac.in/foss/"><span>By Foss</span></a>
+<a href="https://github.com/opencode18/Girls-who-code"><img style="position: absolute; top: 64px; right: 0px; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+
       </div>
     </div>
-    </section>
 
-    
+</section>
     
   <section id="about">
       <div class="jumbotron">
@@ -195,6 +202,31 @@
     <div class="moreEvents"><a href="/Girls-who-code/events" target="_blank"> More Events</a></div>
 </section>
 
+<section id="contributors">
+  <div class="jumbotron1">
+  <h1>Contributors</h1>
+  <div class="container">
+            <div class="row">
+            <div class="col-md-4 col-sm-4 contributor" v-for="index in 1">
+          <div class="team-member" v-if="sortedContributors.length > 0">
+            <div class="team-img">
+               <img v-bind:src="sortedContributors[index-1].image"  class="img-responsive"/>
+              </div>
+           <div class="team-hover">
+              <div class="desk">
+                <h2>{{ sortedContributors[index-1].name }}</h2>
+               </div>
+               <div class="s-link">
+                  <a v-bind:href="sortedContributors[index-1].github"><i class="fa fa-github"></i></a>
+               </div>
+             </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
 
  <section id="contact">
  <div class="jumbotron">
@@ -245,18 +277,8 @@
 </div>
 <p>Feel Free to Contact us for any help</p>
   </div>
- </section>    
-	<div class="subsection" id="contributors" ><p class="cont"  ><b>CONTRIBUTORS</b></p>
-<a href="https://github.com/Tlazypanda" class="link"><b>Sneha Mishra</b></a>
-<a href="https://github.com/ananya-agrawal" class="link1"><b>Ananya Agrawal </b></a>
-<a href="https://github.com/Panda2498" class="link2"><b>Adya Mishra</b></a>
-<a href="https://github.com/nikki1016" class="link3"><b>Nikita Jain</b></a>
-<a href="https://github.com/muskan6769" class="link4"><b>Muskan Chugh</b></a>
-<a href="https://github.com/Esha23" class="link5" ><b>Esha Jaiswal </b></a>
-	</div>
-
-                                   
-     <footer id="footer" role="contentinfo">
+ </section>
+<footer id="footer" role="contentinfo">
       <div class="container">
       
   
@@ -343,6 +365,7 @@
 
 <script src="https://unpkg.com/vue"></script>
 <script src="./static/js/events.js"></script>
+<script src="./static/js/contributors.js"></script>
 <script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
 <script src="particles.js"></script>
 <script src="app.js"></script>
