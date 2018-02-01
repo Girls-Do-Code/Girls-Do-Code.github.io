@@ -293,7 +293,60 @@
 			"date": "2017-03-16",
 			"location": "Allahabad, India",
 			"link": "https://www.hackinthenorth.com/"
+		},
+		{
+			"title": "Teck-For-Good",
+			"date": "2017-06-19",
+			"location": "Belfast",
+			"link": "https://productiveprogrammer.io/tech-good-digitaldna-hackathon-2017/"
+		},
+		{
+			"title": "Wintathon",
+			"date": "2017-11-11",
+			"location": "Bangalore,India",
+			"link": "https://2017wintathon.splashthat.com/"
+		},
+		{
+			"title": "ACM-W HACK 2017",
+			"date": "2017-10-02",
+			"location": "Punjab,Haryana",
+			"link": "http://acmw2017.chitkara.edu.in/"
+		},
+		{
+			"title": "India Hacks 20117",
+			"date": "2017-09-08",
+			"location": "Bengalure,India",
+			"link": "https://inc42.com/buzz/india-hacks-hackerearth-announced-hackathon-winners/"
+		},
+		{
+			"title": "Rails Girls Summer of Code",
+			"date": "2018-07",
+			"location": "",
+			"link": "https://railsgirlssummerofcode.org/"
+		},
+		{
+			"title": "Mathematics of Machine Learning",
+			"date": "2018-01-07",
+			"location": "Delhi,India",
+			"link": "https://www.meetup.com/Women-Who-Code-Delhi/events/246927838/"
+		},
+		{
+			"title": "Women-Who-Code",
+			"date": "2018-01-07",
+			"location": "Delhi,India",
+			"link": "https://www.meetup.com/Women-Who-Code-Delhi/events/246927838/"
+		},
+		{
+			"title": "Mathematics of Machine Learning",
+			"date": "2018-01-07",
+			"location": "Delhi,India",
+			"link": "https://www.meetup.com/Women-Who-Code-Delhi/events/246927838/"
+    		},
+		{
+			"title": "Open Code",
+			"date": "2018-01-10",
+			"location": "Allahabad, India",
+			"link": "https://opencode18.github.io/"
 		}
-		
 	]
 }
