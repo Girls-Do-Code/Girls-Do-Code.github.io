@@ -4,7 +4,12 @@
 			"name": "Ritika Motwani",
 			"github": "https://github.com/ritikamotwani",
 			"image": "static/img/ritika.jpg"
-		}
+		},
+		{
+			"name": "Ananya Agrawal",
+			"github": "https://github.com/ananya-agrawal",
+			"image": "static/img/ananya.jpg"
+		}	
 		
 	]
 }
