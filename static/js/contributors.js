@@ -5,7 +5,7 @@ const app2 = new Vue({
 	sortedContributors : [],
     },
     created() {
-        fetch('https://ritikamotwani.github.io/Girls-who-code/static/js/contributors.json')
+        fetch('https://opencode18.github.io/Girls-who-code/static/js/contributors.json')
             .then(response => response.json())
             .then(json => {
                 this.contributors = json.contributors
