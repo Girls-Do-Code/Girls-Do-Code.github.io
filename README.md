@@ -1,3 +1,4 @@
+![](https://github.com/opencode18/Girls-who-code/blob/master/logo11.png?raw=true)
 # [Girls Who Code](https://opencode18.github.io/Girls-who-code/)
 
 Girls who code is a collaborative website made to acknowledge and encourge female developers. 
