@@ -1,0 +1,352 @@
+{
+	"events": [
+		{
+			"title": "Resumes, Interviews & Branding",
+			"date": "2017-01-19",
+			"location": "Singapore, Singapore",
+			"link": "https://www.meetup.com/Women-Who-Code-Singapore/events/244675165/"
+		},
+		{
+			"title": "Panel discussion @ GA:  Women in the Lead: Tech Ecosystem",
+			"date": "2017-01-19",
+			"location": "Atlanta, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Atlanta/events/246590101/"
+		},
+		{
+			"title": "😃📚 !!Book Club Time!! 📚😃",
+			"date": "2017-01-19",
+			"location": "Cincinnati, USA",
+			"link": "https://www.meetup.com/WWCode-Cincinnati/events/245698907/"
+		},
+		{
+			"title": "Women Who Code Manila 1st Year Anniversary &amp; 2nd General Assembly",
+			"date": "2017-01-20",
+			"location": "Manila, Philippines",
+			"link": "https://www.meetup.com/Women-Who-Code-Manila/events/246458661/"
+		},
+		{
+			"title": "WWCode Brunch",
+			"date": "2017-01-20",
+			"location": "Raleigh, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Raleigh-Durham/events/246679299/"
+		},
+		{
+			"title": "Women Who Code - iOS - Medellín - Virtual",
+			"date": "2017-01-20",
+			"location": "Medellín, Colombia",
+			"link": "https://www.meetup.com/Women-Who-Code-Medellin/events/246815467/"
+		},
+		{
+			"title": "Android Study Group<",
+			"date": "2017-01-21",
+			"location": "St. Paul / Minneapolis, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Twin-Cities/events/246042459/"
+		},
+		{
+			"title": "Algorithms Meetup",
+			"date": "2017-01-22",
+			"location": "Washington, US",
+			"link": "https://www.meetup.com/Women-Who-Code-DC/events/246717590/"
+		},
+		{
+			"title": "Hands-On Python - East Bay Edition",
+			"date": "2017-01-22",
+			"location": "East Bay , USA",
+			"link": "https://www.meetup.com/Women-Who-Code-East-Bay/events/245473424/"
+		},
+		{
+			"title": "Study Hall",
+			"date": "2017-01-22",
+			"location": "Wichita, USA",
+			"link": "https://www.meetup.com/WWCWichita/events/246300183/"
+		},
+		{
+			"title": "Hack Evening",
+			"date": "2017-01-23",
+			"location": "Berlin, Germany",
+			"link": "https://www.meetup.com/Women-Who-Code-Berlin-Germany/events/246652983/"
+		},
+		{
+			"title": "Women who Code Edinburgh",
+			"date": "2017-01-23",
+			"location": "Edinburgh, United Kingdom",
+			"link": "https://www.meetup.com/Women-Who-Code-Edinburgh/events/240871622/"
+		},
+		{
+			"title": "January Lightning Talks & Social Night",
+			"date": "2017-01-23",
+			"location": "Boston, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Boston/events/245867307/"
+		},
+		{
+			"title": "Front End Lab: build your first project (beginner friendly)",
+			"date": "2017-01-23",
+			"location": "Washington, US",
+			"link": "https://www.meetup.com/Women-Who-Code-DC/events/246451484/"
+		},
+		{
+			"title": "Tech Talk @ Teacher Retirement System of Texas",
+			"date": "2017-01-23",
+			"location": "Austin, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Austin/events/245234427/"
+		},
+		{
+			"title": "Coffee and Code with GDI",
+			"date": "2017-01-23",
+			"location": "Phoenix, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Phoenix/events/246466883/"
+		},
+		{
+			"title": "Introduction to Docker - Featured Speaker Caleb Champlin",
+			"date": "2017-01-23",
+			"location": "Fort Collins, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Fort-Collins/events/246090379/"
+		},
+		{
+			"title": "2018 Kickoff Networking Event at Facebook!",
+			"date": "2017-01-23",
+			"location": "Seattle, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Seattle/events/246495537/"
+		},
+		{
+			"title": "Technical Interview Preparation",
+			"date": "2017-01-23",
+			"location": "Silicon Valley, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Silicon-Valley/events/246584771/"
+		},
+		{
+			"title": "RESCHEDULED DUE TO WEATHER: Mentorship Panel",
+			"date": "2017-01-24",
+			"location": "Atlanta, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Atlanta/events/245088483/"
+		},
+		{
+			"title": "Web Development 101",
+			"date": "2017-01-24",
+			"location": "Dallas, US",
+			"link": "https://www.meetup.com/Women-Who-Code-Dallas/events/246544829/"
+		},
+		{
+			"title": "Machine Learning basics",
+			"date": "2017-01-24",
+			"location": "Sacramento, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Sacramento/events/cnwhfpyxcbgc/"
+		},
+		{
+			"title": "Women's Javascript Study Group",
+			"date": "2017-01-24",
+			"location": "San Francisco, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-SF/events/246562837/"
+		},
+		{
+			"title": "Algorithms and Technical Interview Study Group",
+			"date": "2017-01-24",
+			"location": "Los Angeles, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-LA/events/246511273/"
+		},		
+		{
+			"title": "Webinar: Land Your Dream Job without Applying - LinkedIn Networking",
+			"date": "2017-01-25",
+			"location": "Chicago, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Chicago/events/246873327/"
+		},
+		{
+			"title": "CincyWWCodeTogether",
+			"date": "2017-01-25",
+			"location": "Cincinnati, USA",
+			"link": "https://www.meetup.com/WWCode-Cincinnati/events/245699257/"
+		},
+		{
+			"title": "Women’s Mentoring and Networking Event at JPMorgan Chase",
+			"date": "2017-01-25",
+			"location": "New York City, USA",
+			"link": "https://www.meetup.com/WomenWhoCodeNYC/events/245867807/"
+		},
+		{
+			"title": "North Dallas: Casual Code & Connect",
+			"date": "2017-01-25",
+			"location": "Dallas, US",
+			"link": "https://www.meetup.com/Women-Who-Code-Dallas/events/246630506/"
+		},
+		{
+			"title": "Leaders in Robotics and Data Science: A One Year Anniversary Party!",
+			"date": "2017-01-25",
+			"location": "Vancouver, Canada",
+			"link": "https://www.meetup.com/Women-Who-Code-Vancouver/events/244692500/"
+		},
+		{
+			"title": "SheHacks Boston (Partner Event)",
+			"date": "2017-01-26",
+			"location": "Boston, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Boston/events/246491521/"
+		},
+		{
+			"title": "WWCode Saturday Brunch!",
+			"date": "2017-01-27",
+			"location": "Greenville, US",
+			"link": "https://www.meetup.com/Women-Who-Code-Greenville/events/246714524/"
+		},
+		{
+			"title": "Study Hall",
+			"date": "2017-01-29",
+			"location": "Wichita, USA",
+			"link": "https://www.meetup.com/WWCWichita/events/xptsmlyxcbmc/"
+		},
+		{
+			"title": "Technical Interview/Algorithms Study Group + Optional Programming Self-Study",
+			"date": "2017-01-29",
+			"location": "East Bay , USA",
+			"link": "https://www.meetup.com/Women-Who-Code-East-Bay/events/246378816/"
+		},
+		{
+			"title": "Android Workshop",
+			"date": "2017-01-30",
+			"location": "Singapore, Singapore",
+			"link": "https://www.meetup.com/Women-Who-Code-Singapore/events/245844385/"
+		},
+		{
+			"title": "Talk Night",
+			"date": "2017-01-30",
+			"location": "Berlin, Germany",
+			"link": "https://www.meetup.com/Women-Who-Code-Berlin-Germany/events/246441460/"
+		},
+		{
+			"title": "ngAtlanta Community Partner Happy Hour - RSVP on EVENTBRITE!",
+			"date": "2017-01-19",
+			"location": "Atlanta, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Atlanta/events/246584612/"
+		},
+		{
+			"title": "Intro to iOS Development",
+			"date": "2017-01-30",
+			"location": "Toronto, Canada",
+			"link": "https://www.meetup.com/Women-Who-Code-Toronto/events/246829092/"
+		},
+		{
+			"title": "Git workshop @BounceX",
+			"date": "2017-01-30",
+			"location": "New York City, USA",
+			"link": "https://www.meetup.com/WomenWhoCodeNYC/events/245921277/"
+		},
+		{
+			"title": "Technical Interview Preparation",
+			"date": "2017-01-30",
+			"location": "Silicon Valley, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Silicon-Valley/events/246585471/"
+		},
+		{
+			"title": "Unlock your superpower and your STEM potential!",
+			"date": "2017-01-31",
+			"location": "Brisbane, Australia",
+			"link": "https://www.meetup.com/Women-Who-Code-Brisbane/events/244504596/"
+		},
+		{
+			"title": "Speaking Skills for Women in Leadership Positions",
+			"date": "2017-01-31",
+			"location": "San Diego, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-San-Diego/events/246885247/"
+		},
+		{
+			"title": "JavaScript Study Night",
+			"date": "2017-01-31",
+			"location": "Portland, US",
+			"link": "https://www.meetup.com/Women-Who-Code-Portland/events/246585666/"
+		},
+		{
+			"title": "Machine Learning basics",
+			"date": "2017-01-31",
+			"location": "Sacramento, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-Sacramento/events/cnwhfpyxcbpc/"
+		},
+		{
+			"title": "Women's Javascript Study Group",
+			"date": "2017-01-31",
+			"location": "San Francisco, USA",
+			"link": "https://www.meetup.com/Women-Who-Code-SF/events/246713592/"
+		},
+		{
+			"title": "Cracking the Code Interview Study Group-11",
+			"date": "2017-02-01",
+			"location": "Taipei, Taiwan",
+			"link": "https://www.meetup.com/Women-Who-Code-Taipei/events/246714485/"
+		},
+		{
+			"title": "Hack-36",
+			"date": "2017-01-27",
+			"location": "Allahabad, India",
+			"link": "https://www.eventbrite.com/e/hack-36-tickets-40731005534"
+		},
+		{
+			"title": "Hackeam",
+			"date": "2017-01-27",
+			"location": "New Delhi, India",
+			"link": "https://www.eventbrite.com/e/hackeam-2018-registration-41042020789"
+		},
+		{
+			"title": "Hackrupt - NSIT'S Fintech Hackathon",
+			"date": "2017-02-3",
+			"location": "New Delhi, India",
+			"link": "http://hackrupt.consiliumnsit.com/"
+		},
+		{
+			"title": "Hack In The North",
+			"date": "2017-03-16",
+			"location": "Allahabad, India",
+			"link": "https://www.hackinthenorth.com/"
+		},
+		{
+			"title": "Teck-For-Good",
+			"date": "2017-06-19",
+			"location": "Belfast",
+			"link": "https://productiveprogrammer.io/tech-good-digitaldna-hackathon-2017/"
+		},
+		{
+			"title": "Wintathon",
+			"date": "2017-11-11",
+			"location": "Bangalore,India",
+			"link": "https://2017wintathon.splashthat.com/"
+		},
+		{
+			"title": "ACM-W HACK 2017",
+			"date": "2017-10-02",
+			"location": "Punjab,Haryana",
+			"link": "http://acmw2017.chitkara.edu.in/"
+		},
+		{
+			"title": "India Hacks 20117",
+			"date": "2017-09-08",
+			"location": "Bengalure,India",
+			"link": "https://inc42.com/buzz/india-hacks-hackerearth-announced-hackathon-winners/"
+		},
+		{
+			"title": "Rails Girls Summer of Code",
+			"date": "2018-07",
+			"location": "",
+			"link": "https://railsgirlssummerofcode.org/"
+		},
+		{
+			"title": "Mathematics of Machine Learning",
+			"date": "2018-01-07",
+			"location": "Delhi,India",
+			"link": "https://www.meetup.com/Women-Who-Code-Delhi/events/246927838/"
+		},
+		{
+			"title": "Women-Who-Code",
+			"date": "2018-01-07",
+			"location": "Delhi,India",
+			"link": "https://www.meetup.com/Women-Who-Code-Delhi/events/246927838/"
+		},
+		{
+			"title": "Mathematics of Machine Learning",
+			"date": "2018-01-07",
+			"location": "Delhi,India",
+			"link": "https://www.meetup.com/Women-Who-Code-Delhi/events/246927838/"
+    		},
+		{
+			"title": "Open Code",
+			"date": "2018-01-10",
+			"location": "Allahabad, India",
+			"link": "https://opencode18.github.io/"
+		}
+	]
+}
