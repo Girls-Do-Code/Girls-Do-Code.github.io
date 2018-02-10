@@ -13,7 +13,22 @@ html {
 body{
 	width: 100%;
 }
-
+.wrapper {
+        text-align: center;
+    }
+    .wrapper ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        /* For IE, the outcast */
+        zoom:1;
+        *display: inline;
+    }
+    .wrapper li {
+        float: left;
+        padding: 2px 5px;
+        
+    }
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
