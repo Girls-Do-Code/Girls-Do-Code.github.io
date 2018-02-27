@@ -1,5 +1,5 @@
 ![](https://github.com/opencode18/Girls-who-code/blob/master/logo11.png?raw=true)
-# [Girls Who Code](https://opencode18.github.io/Girls-who-code/)
+# Girl Coders
 
 Girls who code is a collaborative website made to acknowledge and encourge female developers. 
 This website is made under [OpenCode](https://opencode18.github.io/), a month long event aimed to raise awareness about and help people get started with open source contribution. A minified version of GSOC, OpenCode is organised by the FOSS wing of IIIT-Allahabad's technical society, Geekhaven.
