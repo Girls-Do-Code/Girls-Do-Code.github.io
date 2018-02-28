@@ -5,8 +5,10 @@ const app = new Vue({
 	sortedEvents : [],
 	imgUrl : ["static/img/event1.jpg", "static/img/event2.jpg", "static/img/event3.jpg", "static/img/event4.jpg","static/img/event5.jpg","static/img/event6.jpg"]
     },
+	https://girls-do-code.github.io/
+	https://opencode18.github.io/OpenCode-Collaborative/
     created() {
-        fetch('https://opencode18.github.io/Girls-who-code/static/js/events.json')
+        fetch('https://girls-do-code.github.io/static/js/events.json')
             .then(response => response.json())
             .then(json => {
                 this.events = json.events
